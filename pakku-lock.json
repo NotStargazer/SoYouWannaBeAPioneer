@@ -1160,6 +1160,67 @@
             ]
         },
         {
+            "pakku_id": "txFhTakytRoaS0Jh",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "sidekick",
+                "modrinth": "sidekick"
+            },
+            "name": {
+                "curseforge": "Sidekick",
+                "modrinth": "Sidekick"
+            },
+            "id": {
+                "curseforge": "430573",
+                "modrinth": "goA2JoBi"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sidekick-neoforge-2.0.6+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6277/735/sidekick-neoforge-2.0.6+1.21.1.jar",
+                    "id": "6277735",
+                    "parent_id": "430573",
+                    "hashes": {
+                        "sha1": "d782fdbfddab5f7ff8360530775c4eb1b02e24d0",
+                        "md5": "5a810133863bca14244dfb3e2080c0cf"
+                    },
+                    "required_dependencies": [],
+                    "size": 388472,
+                    "date_published": "2025-03-08T02:49:28.430Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "sidekick-neoforge-2.0.6+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/goA2JoBi/versions/RtqkrsvL/sidekick-neoforge-2.0.6+1.21.1.jar",
+                    "id": "RtqkrsvL",
+                    "parent_id": "goA2JoBi",
+                    "hashes": {
+                        "sha512": "172e4a025a45453a7af979bbeb23f04633cc26864864354a59d6a0464be76b52e5fd16b54fb07402ae9294841ac362611fe4f43e15d155166e9b1017f768837b",
+                        "sha1": "d782fdbfddab5f7ff8360530775c4eb1b02e24d0"
+                    },
+                    "required_dependencies": [],
+                    "size": 388472,
+                    "date_published": "2025-03-08T02:49:32.452400Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "lGucujyev0cdkLGI",
             "type": "MOD",
             "side": "CLIENT",
