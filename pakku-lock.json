@@ -238,6 +238,67 @@
             ]
         },
         {
+            "pakku_id": "KTdnRbgBS9EMjUdJ",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "emi",
+                "modrinth": "emi"
+            },
+            "name": {
+                "curseforge": "EMI",
+                "modrinth": "EMI"
+            },
+            "id": {
+                "curseforge": "580555",
+                "modrinth": "fRiHVvU7"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "emi-1.1.24+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8081/408/emi-1.1.24+1.21.1+neoforge.jar",
+                    "id": "8081408",
+                    "parent_id": "580555",
+                    "hashes": {
+                        "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a",
+                        "md5": "e4aede758ec7c675d2255234df7ed4ff"
+                    },
+                    "required_dependencies": [],
+                    "size": 1111538,
+                    "date_published": "2026-05-13T06:32:09.470Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "emi-1.1.24+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/5sIPA1To/emi-1.1.24+1.21.1+neoforge.jar",
+                    "id": "5sIPA1To",
+                    "parent_id": "fRiHVvU7",
+                    "hashes": {
+                        "sha512": "f4c45ed686fe617311d6debadcb6ace5963e66f8cfe0cfed398231f081f87407070efc7a73c8b695d158f1d87a97180737b9107a46771e77df2bc9a7dc715ebd",
+                        "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1111538,
+                    "date_published": "2026-05-13T06:21:14.878169Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ZPiEjLGsJQE9owce",
             "type": "MOD",
             "side": "CLIENT",
@@ -693,6 +754,69 @@
             ]
         },
         {
+            "pakku_id": "u6ehrnCTc9Jn0jQb",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "jei",
+                "modrinth": "jei"
+            },
+            "name": {
+                "curseforge": "Just Enough Items (JEI)",
+                "modrinth": "Just Enough Items (JEI)"
+            },
+            "id": {
+                "curseforge": "238222",
+                "modrinth": "u6dRKJwZ"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jei-1.21.1-neoforge-19.27.0.340.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7420/587/jei-1.21.1-neoforge-19.27.0.340.jar",
+                    "id": "7420587",
+                    "parent_id": "238222",
+                    "hashes": {
+                        "sha1": "27d0d85e7e32e926fc3664ab6815df5cdabb7941",
+                        "md5": "6c7cf71d0f92c30d2e8e0cf3fd94a8bf"
+                    },
+                    "required_dependencies": [],
+                    "size": 1529391,
+                    "date_published": "2026-01-05T11:31:22.473Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "jei-1.21.1-neoforge-19.27.0.340.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/YAcQ6elZ/jei-1.21.1-neoforge-19.27.0.340.jar",
+                    "id": "YAcQ6elZ",
+                    "parent_id": "u6dRKJwZ",
+                    "hashes": {
+                        "sha512": "8bad8eb3c8e974f867e23e4d74598f603c5fbf03eb5356a386dd37cb9fa23e08ad1f58be6b7be50d2fbf9d3fbfaeac8584c70ced736df4b8f82c7c75be242998",
+                        "sha1": "27d0d85e7e32e926fc3664ab6815df5cdabb7941"
+                    },
+                    "required_dependencies": [],
+                    "size": 1529391,
+                    "date_published": "2026-01-05T11:31:36.208242Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "5aFuLXKyFn9CPVWa",
             "type": "MOD",
             "side": "BOTH",
@@ -1032,6 +1156,67 @@
                     "required_dependencies": [],
                     "size": 882033,
                     "date_published": "2025-10-13T22:23:08.213734Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "txFhTakytRoaS0Jh",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "sidekick",
+                "modrinth": "sidekick"
+            },
+            "name": {
+                "curseforge": "Sidekick",
+                "modrinth": "Sidekick"
+            },
+            "id": {
+                "curseforge": "430573",
+                "modrinth": "goA2JoBi"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sidekick-neoforge-2.0.6+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6277/735/sidekick-neoforge-2.0.6+1.21.1.jar",
+                    "id": "6277735",
+                    "parent_id": "430573",
+                    "hashes": {
+                        "sha1": "d782fdbfddab5f7ff8360530775c4eb1b02e24d0",
+                        "md5": "5a810133863bca14244dfb3e2080c0cf"
+                    },
+                    "required_dependencies": [],
+                    "size": 388472,
+                    "date_published": "2025-03-08T02:49:28.430Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "sidekick-neoforge-2.0.6+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/goA2JoBi/versions/RtqkrsvL/sidekick-neoforge-2.0.6+1.21.1.jar",
+                    "id": "RtqkrsvL",
+                    "parent_id": "goA2JoBi",
+                    "hashes": {
+                        "sha512": "172e4a025a45453a7af979bbeb23f04633cc26864864354a59d6a0464be76b52e5fd16b54fb07402ae9294841ac362611fe4f43e15d155166e9b1017f768837b",
+                        "sha1": "d782fdbfddab5f7ff8360530775c4eb1b02e24d0"
+                    },
+                    "required_dependencies": [],
+                    "size": 388472,
+                    "date_published": "2025-03-08T02:49:32.452400Z"
                 }
             ]
         },
