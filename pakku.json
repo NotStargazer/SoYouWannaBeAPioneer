@@ -1,0 +1,7 @@
+{
+    "name": "So You Want To Be A Pioneer?",
+    "version": "0.0.1",
+    "overrides": [
+        "config"
+    ]
+}
