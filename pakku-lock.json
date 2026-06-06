@@ -383,6 +383,124 @@
             ]
         },
         {
+            "pakku_id": "ExwLxTqo1zpPQHpW",
+            "pakku_links": [
+                "wc6FdnMGkSOQLLRj"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kubejs",
+                "modrinth": "kubejs"
+            },
+            "name": {
+                "curseforge": "KubeJS",
+                "modrinth": "KubeJS"
+            },
+            "id": {
+                "curseforge": "238086",
+                "modrinth": "umyGl7zF"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.368.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8083/208/kubejs-neoforge-2101.7.2-build.368.jar",
+                    "id": "8083208",
+                    "parent_id": "238086",
+                    "hashes": {
+                        "sha1": "cd8e1e392d642e4d0f1fbc099d93da105c263d0d",
+                        "md5": "95792a5239ae2f1d478d2a674dcf557f"
+                    },
+                    "required_dependencies": [
+                        "416294"
+                    ],
+                    "size": 2281720,
+                    "date_published": "2026-05-13T15:17:34.293Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.368.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/F2nzeC19/kubejs-neoforge-2101.7.2-build.368.jar",
+                    "id": "F2nzeC19",
+                    "parent_id": "umyGl7zF",
+                    "hashes": {
+                        "sha512": "5e2f1bd1460d8f443ce4bd44ed367d27f9170e50dff2ce9430954206e89651f8969dfbe842c3100b0244f8d58f843fc5fb9c46b5c576430a07f1e5b6dd4b9f7b",
+                        "sha1": "edf131afd474151afe076ea975ce5fec5a206ad8"
+                    },
+                    "required_dependencies": [
+                        "sk9knFPE"
+                    ],
+                    "size": 2281720,
+                    "date_published": "2026-05-13T15:17:45.140659Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PuXUYJexRXjPVoxO",
+            "pakku_links": [
+                "JyBSCLAVojTeqHyC",
+                "ExwLxTqo1zpPQHpW"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kubejs-create",
+                "modrinth": "kubejs-create"
+            },
+            "name": {
+                "curseforge": "KubeJS Create",
+                "modrinth": "KubeJS Create"
+            },
+            "id": {
+                "curseforge": "429371",
+                "modrinth": "T38eAZQC"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs-create-neoforge-2101.3.1-build.18.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/T38eAZQC/versions/1qmcLagN/kubejs-create-neoforge-2101.3.1-build.18.jar",
+                    "id": "1qmcLagN",
+                    "parent_id": "T38eAZQC",
+                    "hashes": {
+                        "sha512": "b2c3064a06f7a06aa479c38daa72fcf88e31e753cb16c53435690b2472f71acea49fe3fcab09a1e5d6fed88b289941f9ecf3f71ba9a7b8b84397cab2b8d9801d",
+                        "sha1": "f54d9ff53909771d27e4d9d135c3707cd5d5f855"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "umyGl7zF"
+                    ],
+                    "size": 38629,
+                    "date_published": "2025-11-12T09:22:05.119602Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "5aFuLXKyFn9CPVWa",
             "type": "MOD",
             "side": "BOTH",
