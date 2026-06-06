@@ -1,0 +1,57 @@
+# Extensions
+**/*.log
+**/*.gz
+**/*.DS_Store
+**/*.jar
+**/*.mrpack
+**/*.code-workspace
+**/*.zip
+
+# Dev
+.vs/
+.vscode/
+.idea/
+kubejs/jsconfig.json
+package.g.props
+node_modules/
+.env
+.zed/
+
+# Minecraft
+local/
+saves/
+mods/
+logs/
+crash-reports/
+backups/
+resourcepacks/
+shaderpacks/
+server-resource-packs/
+screenshots/
+downloads/
+modernfix/
+fancymenu_data/
+ESM/
+
+icon.png
+options.txt
+rhino.local.properties
+usercache.json
+usernamecache.json
+emi.json
+
+# Pakku
+build/
+!.pakku/
+!pakku.jar
+!pakku.json
+!pakku-lock.json
+!.pakku/client-overrides/*
+
+# ProbeJS
+/kubejs/probe/
+/kubejs/config/probejs.json
+/kubejs/config/probe-settings.json
+
+# configs, add exceptions below
+/config
