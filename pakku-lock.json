@@ -9,6 +9,69 @@
     },
     "projects": [
         {
+            "pakku_id": "QJg5jZJeqVXopgAv",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "architectury-api",
+                "modrinth": "architectury-api"
+            },
+            "name": {
+                "curseforge": "Architectury API",
+                "modrinth": "Architectury API"
+            },
+            "id": {
+                "curseforge": "419699",
+                "modrinth": "lhGA9TYQ"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "architectury-13.0.8-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5786/327/architectury-13.0.8-neoforge.jar",
+                    "id": "5786327",
+                    "parent_id": "419699",
+                    "hashes": {
+                        "sha1": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b",
+                        "md5": "7a45a948b525c031ca85d221dfdbed85"
+                    },
+                    "required_dependencies": [],
+                    "size": 584004,
+                    "date_published": "2024-10-05T19:24:07.340Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "architectury-13.0.8-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ZxYGwlk0/architectury-13.0.8-neoforge.jar",
+                    "id": "ZxYGwlk0",
+                    "parent_id": "lhGA9TYQ",
+                    "hashes": {
+                        "sha512": "65e3664953385d880320dd6bb818bcb96d361c07c53e2a7f65e64c6a47720ee26b233224ae9cad465ef0b2bbaefdaf30fb0175a983cecd91de058817d6fcf57e",
+                        "sha1": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b"
+                    },
+                    "required_dependencies": [],
+                    "size": 584004,
+                    "date_published": "2024-10-05T19:24:08.875561Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fx5zYgxCqgw3SS5E",
             "type": "MOD",
             "side": "BOTH",
@@ -193,6 +256,135 @@
                     "required_dependencies": [],
                     "size": 1582824,
                     "date_published": "2026-05-07T17:02:07.192469Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Mgx3kYCIPsl15pqt",
+            "pakku_links": [
+                "QJg5jZJeqVXopgAv"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-library-forge"
+            },
+            "name": {
+                "curseforge": "FTB Library (NeoForge)"
+            },
+            "id": {
+                "curseforge": "404465"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-library-neoforge-2101.1.31.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7746/959/ftb-library-neoforge-2101.1.31.jar",
+                    "id": "7746959",
+                    "parent_id": "404465",
+                    "hashes": {
+                        "sha1": "686d4e784c28c14f7760cc22b2de6a8573b56b74",
+                        "md5": "4c526bc440231e459ce23f2beca88937"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 1411181,
+                    "date_published": "2026-03-12T13:59:06.853Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kdrf02Spg6le1zHK",
+            "pakku_links": [
+                "e41D9HsK4TNRUB8e",
+                "Mgx3kYCIPsl15pqt",
+                "QJg5jZJeqVXopgAv"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-quests-forge"
+            },
+            "name": {
+                "curseforge": "FTB Quests (NeoForge)"
+            },
+            "id": {
+                "curseforge": "289412"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-quests-neoforge-2101.1.25.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8195/575/ftb-quests-neoforge-2101.1.25.jar",
+                    "id": "8195575",
+                    "parent_id": "289412",
+                    "hashes": {
+                        "sha1": "c51f43029930cce87e86366b6629a27e4876a03d",
+                        "md5": "0f65ddbe4a4a817575fa1ed91ecf1883"
+                    },
+                    "required_dependencies": [
+                        "404468",
+                        "404465",
+                        "419699"
+                    ],
+                    "size": 1469336,
+                    "date_published": "2026-06-04T12:09:02.087Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "e41D9HsK4TNRUB8e",
+            "pakku_links": [
+                "Mgx3kYCIPsl15pqt",
+                "QJg5jZJeqVXopgAv"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-teams-forge"
+            },
+            "name": {
+                "curseforge": "FTB Teams (NeoForge)"
+            },
+            "id": {
+                "curseforge": "404468"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-teams-neoforge-2101.1.10.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7878/281/ftb-teams-neoforge-2101.1.10.jar",
+                    "id": "7878281",
+                    "parent_id": "404468",
+                    "hashes": {
+                        "sha1": "363376ae0fb22cb0527170fdf6a066d1da9b0225",
+                        "md5": "6e956386dd563e4ab7a76e72ba627d5a"
+                    },
+                    "required_dependencies": [
+                        "404465",
+                        "419699"
+                    ],
+                    "size": 302712,
+                    "date_published": "2026-04-05T08:31:58.663Z"
                 }
             ]
         },
