@@ -50,6 +50,9 @@ build/
 !pakku-lock.json
 !.pakku/client-overrides/*
 
+# Kubejs
+/kubejs/config/web_server.json
+
 # ProbeJS
 /kubejs/probe/
 /kubejs/config/probejs.json
