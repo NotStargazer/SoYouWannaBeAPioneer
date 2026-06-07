@@ -1340,6 +1340,69 @@
             ]
         },
         {
+            "pakku_id": "4qJg1EqTQevs1nIo",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "globalpacks",
+                "modrinth": "globalpacks"
+            },
+            "name": {
+                "curseforge": "Global Packs",
+                "modrinth": "Global Packs"
+            },
+            "id": {
+                "curseforge": "317134",
+                "modrinth": "NRLPy2mk"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "globalpacks-neoforge-1.21.1-21.0.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6634/585/globalpacks-neoforge-1.21.1-21.0.6.jar",
+                    "id": "6634585",
+                    "parent_id": "317134",
+                    "hashes": {
+                        "sha1": "55cf667b16b81df9b8f7fead042cf2f732b21b85",
+                        "md5": "8383425edbee77f7614b4e618e596f98"
+                    },
+                    "required_dependencies": [],
+                    "size": 27239,
+                    "date_published": "2025-06-09T21:50:29.643Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "globalpacks-neoforge-1.21.1-21.0.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/NRLPy2mk/versions/FPcUOp35/globalpacks-neoforge-1.21.1-21.0.6.jar",
+                    "id": "FPcUOp35",
+                    "parent_id": "NRLPy2mk",
+                    "hashes": {
+                        "sha512": "5590a9066d84265a53e756fdb5b8872c383ffe069745756f1ff0fe54a315cefb5cc90ee3d0233a95f1dc2a7d68396b1102b9002d8b1aaf3ec476b52c7286c6b8",
+                        "sha1": "55cf667b16b81df9b8f7fead042cf2f732b21b85"
+                    },
+                    "required_dependencies": [],
+                    "size": 27239,
+                    "date_published": "2025-06-09T21:50:29.013170Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "DwhS4iH4sPBkOgnX",
             "type": "MOD",
             "side": "CLIENT",
@@ -1580,6 +1643,46 @@
                     ],
                     "size": 38629,
                     "date_published": "2025-11-12T09:22:05.119602Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "u4etjZ8TcnfFoQ8J",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "larion-worldgen"
+            },
+            "name": {
+                "modrinth": "Larion World Generation"
+            },
+            "id": {
+                "modrinth": "rctNbbuL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "larion-neoforge-1.21.1-4.3.0.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/rctNbbuL/versions/OlUcBPru/larion-neoforge-1.21.1-4.3.0.jar",
+                    "id": "OlUcBPru",
+                    "parent_id": "rctNbbuL",
+                    "hashes": {
+                        "sha512": "b2a6e5efab6ade89f2aed8115309e28bac1802da2c766b35322a6a49c1b885483c8b4ea837d47f0fc095871c7b66f00e214189cc155b73e266ac1deed1d53a4c",
+                        "sha1": "12de67f0b1da9dcac2b63ca1cc085b2f5714afcc"
+                    },
+                    "required_dependencies": [],
+                    "size": 79324,
+                    "date_published": "2025-03-17T15:39:59.871349Z"
                 }
             ]
         },
@@ -2403,6 +2506,56 @@
                     "required_dependencies": [],
                     "size": 562973,
                     "date_published": "2025-07-15T09:35:16.158222Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ilH5mE1xUR1igTzu",
+            "type": "DATA_PACK",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "william-wythers-overhauled-overworld-(datapack)"
+            },
+            "name": {
+                "modrinth": "William Wythers' Overhauled Overworld (Datapack)"
+            },
+            "id": {
+                "modrinth": "4pbhwMQz"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "William Wythers' Overhauled Overworld v2.6.0.zip",
+                    "mc_versions": [
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10"
+                    ],
+                    "loaders": [
+                        "datapack"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/4pbhwMQz/versions/ZPiU81rJ/William Wythers' Overhauled Overworld v2.6.0.zip",
+                    "id": "ZPiU81rJ",
+                    "parent_id": "4pbhwMQz",
+                    "hashes": {
+                        "sha512": "851687068282245e460a4b797faa3dd774d8cd30fd49604be7c44eb2774eccd17ced0e0122210bdd0a6199b2086c73ca9e747a626e72b1dd9066f79d2e73ba9e",
+                        "sha1": "9acf6e00bfe5b34ef770349cc7fac9c6b8e794d7"
+                    },
+                    "required_dependencies": [],
+                    "size": 4173559,
+                    "date_published": "2025-10-10T01:23:28.369311Z"
                 }
             ]
         }
