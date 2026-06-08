@@ -2387,6 +2387,43 @@
             ]
         },
         {
+            "pakku_id": "7FRpVwqz6ilxH5Bg",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "probejs"
+            },
+            "name": {
+                "modrinth": "ProbeJS"
+            },
+            "id": {
+                "modrinth": "JJNYRb4B"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ProbeJS-8.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/JJNYRb4B/versions/TJ5bBpRD/ProbeJS-8.0.2.jar",
+                    "id": "TJ5bBpRD",
+                    "parent_id": "JJNYRb4B",
+                    "hashes": {
+                        "sha512": "cb3db4435f5f73c64e357f7d7dedc7857a31dc079510d0f98aa564c96d197d6389aea56e3dc5b7c7e12f9e899b3cc2288b08170546ff356b9dc6ffcbe70a36fb",
+                        "sha1": "1d7d75f040cf8f9b9bd7aa52a1ac5e82c3edb31f"
+                    },
+                    "required_dependencies": [],
+                    "size": 2460420,
+                    "date_published": "2026-05-21T08:34:24.138155Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vakskMQIhB00LLjN",
             "pakku_links": [
                 "lGucujyev0cdkLGI"
