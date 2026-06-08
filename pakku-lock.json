@@ -448,6 +448,77 @@
             ]
         },
         {
+            "pakku_id": "T7SBsyRqdjJBZC1d",
+            "pakku_links": [
+                "ZPiEjLGsJQE9owce",
+                "JyBSCLAVojTeqHyC"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "create-nowheel",
+                "modrinth": "create-nowheel"
+            },
+            "name": {
+                "curseforge": "Create: Nowheel",
+                "modrinth": "Create: Nowheel"
+            },
+            "id": {
+                "curseforge": "1544167",
+                "modrinth": "c47YxuuI"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "nowheel-1.0.6+1.21.1neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8132/19/nowheel-1.0.6+1.21.1neoforge.jar",
+                    "id": "8132019",
+                    "parent_id": "1544167",
+                    "hashes": {
+                        "sha1": "9ee9731afc7dcb5fc2b5366709f6ddc656c6c64f",
+                        "md5": "0a82036b59819e63678529181a063fb6"
+                    },
+                    "required_dependencies": [
+                        "448233",
+                        "328085"
+                    ],
+                    "size": 75713,
+                    "date_published": "2026-05-23T09:49:17.710Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "nowheel-1.0.6+1.21.1neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/c47YxuuI/versions/o6pOoO0m/nowheel-1.0.6+1.21.1neoforge.jar",
+                    "id": "o6pOoO0m",
+                    "parent_id": "c47YxuuI",
+                    "hashes": {
+                        "sha512": "b4fe5b996f81c27479b74e391dd3b0374718c206d3da07cd1c3eb0dc9de907bb700337ceecd21d0323a95c8aaedf84bca791ee62be7b373986581e8909895c53",
+                        "sha1": "9ee9731afc7dcb5fc2b5366709f6ddc656c6c64f"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "NNAgCjsB"
+                    ],
+                    "size": 75713,
+                    "date_published": "2026-05-23T09:49:18.017989Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "TmL8r05FqhtVIyWk",
             "pakku_links": [
                 "JyBSCLAVojTeqHyC",
@@ -717,6 +788,43 @@
                     "required_dependencies": [],
                     "size": 249368,
                     "date_published": "2026-06-02T10:12:45.206831Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xsWaYC9osZD3Vru0",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-vintage-(unofficial-port)"
+            },
+            "name": {
+                "modrinth": "Create: Vintage"
+            },
+            "id": {
+                "modrinth": "qVZh767G"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "createvintageneoforged-1.21.1-1.3.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qVZh767G/versions/TCb8QfkM/createvintageneoforged-1.21.1-1.3.4.jar",
+                    "id": "TCb8QfkM",
+                    "parent_id": "qVZh767G",
+                    "hashes": {
+                        "sha512": "3c23f2cdd590fddd9e9d14755c3f24ea7760f00a52b42b65e4e5358a61e83b2554a4562a9e05c50787ff384ccd8651d04bcac8d09e0758a336e99c48cdaa74e9",
+                        "sha1": "dc7511d3eb58ccc1a988abe947165f47aa984089"
+                    },
+                    "required_dependencies": [],
+                    "size": 656262,
+                    "date_published": "2026-06-03T19:02:24.443Z"
                 }
             ]
         },
