@@ -1,3 +1,6 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded startup example script)')
+global.pack = {};
+global.pack.name = "sywbap"
 
+StartupEvents.registry("item", (event) => {
+  registerModPackItems(event);
+});

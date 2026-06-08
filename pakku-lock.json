@@ -782,7 +782,8 @@
             "pakku_id": "eT0U9d1x2FkyUyil",
             "pakku_links": [
                 "JyBSCLAVojTeqHyC",
-                "u6ehrnCTc9Jn0jQb"
+                "u6ehrnCTc9Jn0jQb",
+                "KWdffFb6BEfdIUAc"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -1686,7 +1687,7 @@
             ]
         },
         {
-            "pakku_id": "u6ehrnCTc9Jn0jQb",
+            "pakku_id": "KWdffFb6BEfdIUAc",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -1702,28 +1703,6 @@
                 "modrinth": "u6dRKJwZ"
             },
             "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "jei-1.21.1-neoforge-19.27.0.340.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7420/587/jei-1.21.1-neoforge-19.27.0.340.jar",
-                    "id": "7420587",
-                    "parent_id": "238222",
-                    "hashes": {
-                        "sha1": "27d0d85e7e32e926fc3664ab6815df5cdabb7941",
-                        "md5": "6c7cf71d0f92c30d2e8e0cf3fd94a8bf"
-                    },
-                    "required_dependencies": [],
-                    "size": 1529391,
-                    "date_published": "2026-01-05T11:31:22.473Z"
-                },
                 {
                     "type": "modrinth",
                     "file_name": "jei-1.21.1-neoforge-19.27.0.340.jar",
@@ -1745,6 +1724,28 @@
                     "required_dependencies": [],
                     "size": 1529391,
                     "date_published": "2026-01-05T11:31:36.208242Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "jei-1.21.1-neoforge-19.27.0.340.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7420/587/jei-1.21.1-neoforge-19.27.0.340.jar",
+                    "id": "7420587",
+                    "parent_id": "238222",
+                    "hashes": {
+                        "sha1": "27d0d85e7e32e926fc3664ab6815df5cdabb7941",
+                        "md5": "6c7cf71d0f92c30d2e8e0cf3fd94a8bf"
+                    },
+                    "required_dependencies": [],
+                    "size": 1529391,
+                    "date_published": "2026-01-05T11:31:22.473Z"
                 }
             ]
         },
@@ -2346,43 +2347,39 @@
             ]
         },
         {
-            "pakku_id": "8Dx6uPxOIHPNLGs7",
+            "pakku_id": "VioIpzaewsv6y65q",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
-                "modrinth": "project-vibrant-journeys"
+                "modrinth": "ok-zoomer"
             },
             "name": {
-                "modrinth": "Project: Vibrant Journeys"
+                "modrinth": "Ok Zoomer - It's Zoom!"
             },
             "id": {
-                "modrinth": "Z8Xbk4yv"
+                "modrinth": "aXf2OSFU"
             },
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "projectvibrantjourneys-1.21.1-7.0.6.jar",
+                    "file_name": "ok_zoomer-neo-10.0.0-beta.13.jar",
                     "mc_versions": [
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4"
+                        "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Z8Xbk4yv/versions/j3Gv8nMk/projectvibrantjourneys-1.21.1-7.0.6.jar",
-                    "id": "j3Gv8nMk",
-                    "parent_id": "Z8Xbk4yv",
+                    "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/AkPuuAgJ/ok_zoomer-neo-10.0.0-beta.13.jar",
+                    "id": "AkPuuAgJ",
+                    "parent_id": "aXf2OSFU",
                     "hashes": {
-                        "sha512": "a132873ea3cfe04490da9684f54d4d2ddcb20f69042ade9ded48667c1e0868ebe512df1f4e925d1b4c11b780c75f461d3a97c36b07468594c7aa9d1379956686",
-                        "sha1": "50a8413de47c687c323471845afb2045b2aa9155"
+                        "sha512": "a7abed243ef8f535dbd24dc6e8a211cc42d28ff2c72322f04dc289e2de6fde4ca00ee2dd3943fad7aa24dc3af497b379c05e10f827ed24a737a73bdb1b142c6e",
+                        "sha1": "bf38fe686628eca79cc1b33c6e60a1eb765c6b39"
                     },
                     "required_dependencies": [],
-                    "size": 759169,
-                    "date_published": "2025-02-16T19:45:13.552028Z"
+                    "size": 208085,
+                    "date_published": "2026-02-25T13:01:40.057097Z"
                 }
             ]
         },
@@ -2420,6 +2417,47 @@
                     "required_dependencies": [],
                     "size": 2460420,
                     "date_published": "2026-05-21T08:34:24.138155Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8Dx6uPxOIHPNLGs7",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "project-vibrant-journeys"
+            },
+            "name": {
+                "modrinth": "Project: Vibrant Journeys"
+            },
+            "id": {
+                "modrinth": "Z8Xbk4yv"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "projectvibrantjourneys-1.21.1-7.0.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Z8Xbk4yv/versions/j3Gv8nMk/projectvibrantjourneys-1.21.1-7.0.6.jar",
+                    "id": "j3Gv8nMk",
+                    "parent_id": "Z8Xbk4yv",
+                    "hashes": {
+                        "sha512": "a132873ea3cfe04490da9684f54d4d2ddcb20f69042ade9ded48667c1e0868ebe512df1f4e925d1b4c11b780c75f461d3a97c36b07468594c7aa9d1379956686",
+                        "sha1": "50a8413de47c687c323471845afb2045b2aa9155"
+                    },
+                    "required_dependencies": [],
+                    "size": 759169,
+                    "date_published": "2025-02-16T19:45:13.552028Z"
                 }
             ]
         },
