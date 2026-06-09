@@ -175,6 +175,67 @@
             ]
         },
         {
+            "pakku_id": "9rei9tN919lQGXBN",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "curios",
+                "modrinth": "curios"
+            },
+            "name": {
+                "curseforge": "Curios API (Forge/NeoForge)",
+                "modrinth": "Curios API"
+            },
+            "id": {
+                "curseforge": "309927",
+                "modrinth": "vvuO3ImH"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "curios-neoforge-9.5.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6529/130/curios-neoforge-9.5.1+1.21.1.jar",
+                    "id": "6529130",
+                    "parent_id": "309927",
+                    "hashes": {
+                        "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+                        "md5": "e8f0a3574264bb202c153b90293dc84c"
+                    },
+                    "required_dependencies": [],
+                    "size": 410690,
+                    "date_published": "2025-05-14T13:34:49.793Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "curios-neoforge-9.5.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1+1.21.1.jar",
+                    "id": "yohfFbgD",
+                    "parent_id": "vvuO3ImH",
+                    "hashes": {
+                        "sha512": "5981a267686b744e7e3c227f78cbcd5267c14ac6979a28e814695f4589273998563147207fef4a5cdb7cdbdc39797cd95d9e4abadb55869f18e02a38d0654ae5",
+                        "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4"
+                    },
+                    "required_dependencies": [],
+                    "size": 410690,
+                    "date_published": "2025-05-14T13:34:47.415840Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tx43F832yALUZluS",
             "type": "MOD",
             "side": "CLIENT",
