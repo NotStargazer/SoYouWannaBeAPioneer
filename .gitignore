@@ -32,6 +32,8 @@ downloads/
 modernfix/
 fancymenu_data/
 ESM/
+generated/
+.pg-native/
 
 icon.png
 options.txt
