@@ -2595,6 +2595,54 @@
                     "date_published": "2025-10-10T01:23:28.369311Z"
                 }
             ]
+        },
+        {
+            "pakku_id": "Aqbrx85WLU9OXT6U",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "yeetus-experimentus"
+            },
+            "name": {
+                "modrinth": "Yeetus Experimentus"
+            },
+            "id": {
+                "modrinth": "HaaH232J"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "yeetusexperimentus-neoforge-87.0.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/HaaH232J/versions/Pp0TjcvD/yeetusexperimentus-neoforge-87.0.0.jar",
+                    "id": "Pp0TjcvD",
+                    "parent_id": "HaaH232J",
+                    "hashes": {
+                        "sha512": "cc2dc46dcaa0424c820cb7931fd2ceb3826669934189c011fd1ebd5692cdf7652c725034abec2828bfea2238c9615d6f9c36e3e01e21fc9eb44551eb51e06fe3",
+                        "sha1": "7132c346103d75a7c84da64b35b92e3a6f1ce3da"
+                    },
+                    "required_dependencies": [],
+                    "size": 570057,
+                    "date_published": "2024-06-19T12:03:09.823858Z"
+                }
+            ]
         }
     ],
     "lockfile_version": 2
