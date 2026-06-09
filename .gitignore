@@ -57,4 +57,5 @@ build/
 
 # configs, add exceptions below
 /config/*
+!/config/global_packs.toml
 !config/sodium-mixins.properties
