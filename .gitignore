@@ -56,4 +56,5 @@ build/
 /kubejs/config/probe-settings.json
 
 # configs, add exceptions below
-/config
+/config/*
+!config/sodium-mixins.properties
