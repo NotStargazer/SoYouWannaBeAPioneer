@@ -2790,6 +2790,43 @@
             ]
         },
         {
+            "pakku_id": "IlMI6CelOi84IxdQ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "structure-control-"
+            },
+            "name": {
+                "modrinth": "Structure Control"
+            },
+            "id": {
+                "modrinth": "hBWEcrIL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "structurecontrol-1.21.1-1.8.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hBWEcrIL/versions/RAagIYNw/structurecontrol-1.21.1-1.8.5.jar",
+                    "id": "RAagIYNw",
+                    "parent_id": "hBWEcrIL",
+                    "hashes": {
+                        "sha512": "2b0b9e9914508ece74538da8bb467be3d94a6750336111f96b77d98b5092eee0f1cf72dac6b15d07ab07aaed06af9262d1dd4bd80b8a47d946e82732612c310e",
+                        "sha1": "4555a53478e1d56a47360c5fff23624a46014003"
+                    },
+                    "required_dependencies": [],
+                    "size": 45617,
+                    "date_published": "2025-12-27T12:41:12.626398Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "YC9XpAae17D9lTgz",
             "type": "MOD",
             "side": "BOTH",
