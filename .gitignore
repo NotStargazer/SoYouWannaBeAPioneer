@@ -41,6 +41,7 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 emi.json
+command_history.txt
 
 # Pakku
 build/
@@ -61,3 +62,4 @@ build/
 !/config/sodium-mixins.properties
 !/config/naturaltemperature-common.toml
 !/config/tectonic.json
+!/config/biomespawnpoint
