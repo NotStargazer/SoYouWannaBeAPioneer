@@ -109,6 +109,52 @@
             ]
         },
         {
+            "pakku_id": "cWKaj3G7WbZTjCfg",
+            "pakku_links": [
+                "ufgJxM6AtTcQst6S"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "biome-spawn-point"
+            },
+            "name": {
+                "modrinth": "Biome Spawn Point"
+            },
+            "id": {
+                "modrinth": "mtfbtanr"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "biomespawnpoint-1.21.1-2.4.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/mtfbtanr/versions/WCzp4bMK/biomespawnpoint-1.21.1-2.4.jar",
+                    "id": "WCzp4bMK",
+                    "parent_id": "mtfbtanr",
+                    "hashes": {
+                        "sha512": "da8fd49be669c68636372ad1d7546eab2342e15f9b645224ac341ef4600ad40546d39e81f3ff3f3a47063cd433742a588f17a27fc256753308fe1a4db9fa5fbb",
+                        "sha1": "7e0b120679be73711eac3330dad5ec20f79356f4"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 48170,
+                    "date_published": "2025-02-12T18:51:23.344249Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fx5zYgxCqgw3SS5E",
             "type": "MOD",
             "side": "BOTH",
@@ -168,6 +214,75 @@
                     "required_dependencies": [],
                     "size": 1163890,
                     "date_published": "2024-09-16T17:18:02.926305Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ufgJxM6AtTcQst6S",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "collective",
+                "modrinth": "collective"
+            },
+            "name": {
+                "curseforge": "Collective",
+                "modrinth": "Collective"
+            },
+            "id": {
+                "curseforge": "342584",
+                "modrinth": "e0M1UDsY"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "collective-1.21.1-8.25.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8210/988/collective-1.21.1-8.25.jar",
+                    "id": "8210988",
+                    "parent_id": "342584",
+                    "hashes": {
+                        "sha1": "24a7868eb9b461f9fb6d92481ab08ceaf95ef6b4",
+                        "md5": "897eb7ff6f64e1f6f91b26ac812fd228"
+                    },
+                    "required_dependencies": [],
+                    "size": 988681,
+                    "date_published": "2026-06-07T14:05:29.073Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "collective-1.21.1-8.25.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/IocRsdQH/collective-1.21.1-8.25.jar",
+                    "id": "IocRsdQH",
+                    "parent_id": "e0M1UDsY",
+                    "hashes": {
+                        "sha512": "4d8358229be3eb75b0913451788f7c314abb78e256f3e10d3a79fe87d16bb99f4e5d6bfd06c724cbeb26f590943a0d3504ec9e6f028f00bd43c6616f49069cf9",
+                        "sha1": "24a7868eb9b461f9fb6d92481ab08ceaf95ef6b4"
+                    },
+                    "required_dependencies": [],
+                    "size": 988681,
+                    "date_published": "2026-06-07T14:05:40.649417Z"
                 }
             ]
         },
