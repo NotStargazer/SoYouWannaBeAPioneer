@@ -1,2 +1,9 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info("Hello, World! (Loaded server example script)");
+//priority: 1
+
+ServerEvents.tags('item', event => {
+    vibrantJournyTags(event);
+})
+
+ServerEvents.recipes(event => {
+    slagRecipes(event);
+})
