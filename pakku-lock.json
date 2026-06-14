@@ -9,6 +9,74 @@
     },
     "projects": [
         {
+            "pakku_id": "elyqBuWVEmfmmSdu",
+            "pakku_links": [
+                "uJMK8s0wT2KLOK5f"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "ambientsounds",
+                "modrinth": "ambientsounds"
+            },
+            "name": {
+                "curseforge": "AmbientSounds 6",
+                "modrinth": "AmbientSounds"
+            },
+            "id": {
+                "curseforge": "254284",
+                "modrinth": "fM515JnW"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8043/19/AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+                    "id": "8043019",
+                    "parent_id": "254284",
+                    "hashes": {
+                        "sha1": "c79ab328b2c46068effebdcb3f26e98dc4404cb0",
+                        "md5": "fdd3f4054a8a2716cb4057d81e61a0c7"
+                    },
+                    "required_dependencies": [
+                        "257814"
+                    ],
+                    "size": 84811632,
+                    "date_published": "2026-05-05T12:27:30.767Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fM515JnW/versions/RZyxhsqY/AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+                    "id": "RZyxhsqY",
+                    "parent_id": "fM515JnW",
+                    "hashes": {
+                        "sha512": "292a7a61836eb6db31ec225ae4a0dc838416638618635ff60c07740bdc327df44ac0be7788c0ed44912935eb4d85b987fb6c594d11e4604f2d24fa21eabc672a",
+                        "sha1": "c79ab328b2c46068effebdcb3f26e98dc4404cb0"
+                    },
+                    "required_dependencies": [
+                        "OsZiaDHq"
+                    ],
+                    "size": 84811632,
+                    "date_published": "2026-05-05T12:28:03.067983Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QJg5jZJeqVXopgAv",
             "type": "MOD",
             "side": "BOTH",
@@ -1087,6 +1155,67 @@
             ]
         },
         {
+            "pakku_id": "uJMK8s0wT2KLOK5f",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "creativecore",
+                "modrinth": "creativecore"
+            },
+            "name": {
+                "curseforge": "CreativeCore",
+                "modrinth": "CreativeCore"
+            },
+            "id": {
+                "curseforge": "257814",
+                "modrinth": "OsZiaDHq"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8190/65/CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+                    "id": "8190065",
+                    "parent_id": "257814",
+                    "hashes": {
+                        "sha1": "4b666b4668b77fdc1ac34a183aae58a432999970",
+                        "md5": "610093f21cea33b34f911bca97aa294f"
+                    },
+                    "required_dependencies": [],
+                    "size": 1218640,
+                    "date_published": "2026-06-03T07:13:19.997Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/nLLornod/CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+                    "id": "nLLornod",
+                    "parent_id": "OsZiaDHq",
+                    "hashes": {
+                        "sha512": "2713dbd456f56f26ef934e5feb4bfb4578a66d0af056eb02670155affceb574d1237203e443e05908d88f3af8de47b52d0216d156028b77b5337f6283b7f4398",
+                        "sha1": "4b666b4668b77fdc1ac34a183aae58a432999970"
+                    },
+                    "required_dependencies": [],
+                    "size": 1218640,
+                    "date_published": "2026-06-03T07:13:28.842006Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ukqTLZkMd1cznhEa",
             "pakku_links": [
                 "fx5zYgxCqgw3SS5E"
@@ -1527,6 +1656,43 @@
                     ],
                     "size": 302712,
                     "date_published": "2026-04-05T08:31:58.663Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4iruzKduzv7PJ4nv",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "fallingleavesforge"
+            },
+            "name": {
+                "modrinth": "Falling Leaves (NeoForge/Forge)"
+            },
+            "id": {
+                "modrinth": "2JAUNCL4"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "fallingleaves-1.21.1-2.5.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/PVzaPLSv/fallingleaves-1.21.1-2.5.1.jar",
+                    "id": "PVzaPLSv",
+                    "parent_id": "2JAUNCL4",
+                    "hashes": {
+                        "sha512": "9cc6ec387bce1a68f07b08bf1a2a65dc49ad409070f8cf58147d3cdbb9b82300d4a7184e01cf58a82886fb57156e6875b2cf7c4abb15335f8fd15be1de58400f",
+                        "sha1": "93f479691d5a88775d90e9fa19e814b7301a363b"
+                    },
+                    "required_dependencies": [],
+                    "size": 153343,
+                    "date_published": "2025-02-26T20:37:54.533055Z"
                 }
             ]
         },
@@ -2511,6 +2677,67 @@
                     "required_dependencies": [],
                     "size": 208085,
                     "date_published": "2026-02-25T13:01:40.057097Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "P2UopnsRVcDYi1BT",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "particle-rain",
+                "modrinth": "particle-rain"
+            },
+            "name": {
+                "curseforge": "Particle Rain",
+                "modrinth": "Particle Rain"
+            },
+            "id": {
+                "curseforge": "421897",
+                "modrinth": "nrikgvxm"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8055/433/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+                    "id": "8055433",
+                    "parent_id": "421897",
+                    "hashes": {
+                        "sha1": "df2800c721e8a588dde48bc4b426707eccf712b6",
+                        "md5": "2bc8196d827aaf9303aeb815352da294"
+                    },
+                    "required_dependencies": [],
+                    "size": 605458,
+                    "date_published": "2026-05-08T00:39:51.557Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/nrikgvxm/versions/CJeVXIae/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+                    "id": "CJeVXIae",
+                    "parent_id": "nrikgvxm",
+                    "hashes": {
+                        "sha512": "9bff41758d0a63621512a3ce4d9c8f2e5a16937ac1ccac766f24d2baaded2a0475a0478a61062ebc861414443826480235a6f5c7cfe14f4ee26bd057188ff5b0",
+                        "sha1": "df2800c721e8a588dde48bc4b426707eccf712b6"
+                    },
+                    "required_dependencies": [],
+                    "size": 605458,
+                    "date_published": "2026-05-08T00:39:53.547429Z"
                 }
             ]
         },
