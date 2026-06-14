@@ -1,5 +1,5 @@
 global.pack = {};
-global.pack.name = "sywbap"
+global.pack.name = "pioneer"
 
 StartupEvents.registry("item", (event) => {
   registerModPackItems(event);

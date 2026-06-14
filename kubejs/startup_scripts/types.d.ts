@@ -1,4 +1,4 @@
-export type PackName = "sywbap";
+export type PackName = "pioneer";
 export function defineNames<T extends string>(
   arr: readonly T[],
 ): {
