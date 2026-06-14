@@ -60,3 +60,4 @@ build/
 !/config/global_packs.toml
 !/config/sodium-mixins.properties
 !/config/naturaltemperature-common.toml
+!/config/biomespawnpoint
