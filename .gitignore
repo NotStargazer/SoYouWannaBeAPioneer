@@ -34,6 +34,7 @@ fancymenu_data/
 ESM/
 generated/
 .pg-native/
+command_history.txt
 
 icon.png
 options.txt
@@ -50,9 +51,11 @@ build/
 !pakku-lock.json
 !.pakku/client-overrides/*
 
+# Kubejs
+/kubejs/config/web_server.json
+
 # ProbeJS
-/kubejs/probe/
-/kubejs/config/probejs.json
+.probe
 /kubejs/config/probe-settings.json
 
 # configs, add exceptions below
