@@ -2346,6 +2346,47 @@
             ]
         },
         {
+            "pakku_id": "8Dx6uPxOIHPNLGs7",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "project-vibrant-journeys"
+            },
+            "name": {
+                "modrinth": "Project: Vibrant Journeys"
+            },
+            "id": {
+                "modrinth": "Z8Xbk4yv"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "projectvibrantjourneys-1.21.1-7.0.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Z8Xbk4yv/versions/j3Gv8nMk/projectvibrantjourneys-1.21.1-7.0.6.jar",
+                    "id": "j3Gv8nMk",
+                    "parent_id": "Z8Xbk4yv",
+                    "hashes": {
+                        "sha512": "a132873ea3cfe04490da9684f54d4d2ddcb20f69042ade9ded48667c1e0868ebe512df1f4e925d1b4c11b780c75f461d3a97c36b07468594c7aa9d1379956686",
+                        "sha1": "50a8413de47c687c323471845afb2045b2aa9155"
+                    },
+                    "required_dependencies": [],
+                    "size": 759169,
+                    "date_published": "2025-02-16T19:45:13.552028Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vakskMQIhB00LLjN",
             "pakku_links": [
                 "lGucujyev0cdkLGI"
