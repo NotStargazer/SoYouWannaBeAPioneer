@@ -1,6 +1,7 @@
 //priority: 1
 
 ServerEvents.tags('item', event => {
+    minecraftTags(event);
     vibrantJournyTags(event);
 })
 

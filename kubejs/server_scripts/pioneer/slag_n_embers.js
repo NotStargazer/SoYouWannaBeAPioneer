@@ -3,6 +3,7 @@ import { $RecipesKubeEvent } from "@package/dev/latvian/mods/kubejs/recipe";
 
 const material = {
   stone: "stone",
+  flint: "flint",
   copper: "copper",
   iron: "iron",
   gold: "gold",
@@ -33,7 +34,7 @@ const getSlagPart = (material, tool_part) => {
  * @param {$RecipesKubeEvent} event 
  */
 const slagRecipes = (event) => {
-  event.remove(Item.of("slag:dynamic_part"));
+  event.remove({ output: 'slag:dynamic_part' });
   event.remove({ output: '#minecraft:pickaxes' });
   event.remove({ output: '#minecraft:shovels' });
   event.remove({ output: '#minecraft:axes' });
@@ -43,8 +44,8 @@ const slagRecipes = (event) => {
   //Stone
   event.shaped(getSlagPart(material.stone, tool_part.pickaxe), 
   [
-    ' R ',
-    'CCC',
+    ' C ',
+    'RRR',
   ],
   {
     R: '#pioneer:rocks',
@@ -97,39 +98,39 @@ const slagRecipes = (event) => {
     C: '#minecraft:stone_crafting_materials',
   });
 
-  constructTools(event, material.stone, 'minecraft');
+  createToolRecipes(event, material.stone, 'minecraft');
 }
 
 /**
  * 
  * @param {$RecipesKubeEvent} event 
  */
-const constructTools = (event, material, source) => {
+const createToolRecipes = (event, material, source) => {
   event.shapeless(Item.of(`${source}:${material}_pickaxe`), 
   [
     getSlagPart(material, tool_part.pickaxe),
     'minecraft:stick',
-  ])
+  ]);
   event.shapeless(Item.of(`${source}:${material}_shovel`), 
   [
     getSlagPart(material, tool_part.shovel),
     'minecraft:stick',
-  ])
+  ]);
   event.shapeless(Item.of(`${source}:${material}_axe`), 
   [
     getSlagPart(material, tool_part.axe),
     'minecraft:stick',
-  ])
+  ]);
   event.shapeless(Item.of(`${source}:${material}_hoe`), 
   [
     getSlagPart(material, tool_part.hoe),
     'minecraft:stick',
-  ])
+  ]);
   event.shapeless(Item.of(`${source}:${material}_sword`), 
   [
     getSlagPart(material, tool_part.sword),
     getSlagPart(material, tool_part.guard),
     'minecraft:stick',
-  ])
+  ]);
 }
 

@@ -72,6 +72,43 @@
             ]
         },
         {
+            "pakku_id": "ErZAqTS2FOXfFpDA",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "better-harvest-level"
+            },
+            "name": {
+                "modrinth": "Better Harvest Level"
+            },
+            "id": {
+                "modrinth": "z9ZHPD94"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "betterharvestlevel-neoforge-1.21.1-1.1.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/z9ZHPD94/versions/Tt8tSnXR/betterharvestlevel-neoforge-1.21.1-1.1.0.jar",
+                    "id": "Tt8tSnXR",
+                    "parent_id": "z9ZHPD94",
+                    "hashes": {
+                        "sha512": "fcd18867dedda811d2f8e2cfff153a7c8535c40d93ff87ad36107bd3b2715bfcf03f22711eef7cccbf22041fdcbb634838929b4af7487b62c049cf9a026cdafc",
+                        "sha1": "50cbaeff7256e98ac87c11a8dd9b31b98ca165c1"
+                    },
+                    "required_dependencies": [],
+                    "size": 52012,
+                    "date_published": "2026-06-12T18:30:51.095523Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qC1765ccPLFPvv24",
             "type": "MOD",
             "side": "CLIENT",
