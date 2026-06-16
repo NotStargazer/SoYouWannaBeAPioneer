@@ -1,0 +1,29 @@
+#######################################################################################################################
+# Mob Control Config
+#######################################################################################################################
+# NOTE: Rules are executed from top to bottom, and the first rule that matches all conditions will take precedence.
+
+# NOTE: After making changes, it's best to run the mobcontrol.toml through a validator to check for any errors.
+#       Here's an example online validator: https://codebeautify.org/toml-validator
+
+[general]
+# debug spams the logs with a bunch of extra logging when set to true.
+# NOTE: Don't enable unless you like spammy log files, or you're troubleshooting.
+debug=false
+
+[[mob]]
+name=["tag:minecraft:undead", "minecraft:creeper", "minecraft:enderman", "minecraft:cave_spider", "minecraft:spider"]
+
+[[mob.rule]]
+light-sky=0
+type="all"
+
+
+#######################################################################################################################
+# Add your custom rules above the previous line
+#######################################################################################################################
+# Allow all by default. You can change "all" to "block" to block mobs by default.
+[[mob]]
+name="*"
+[[mob.rule]]
+type="all"

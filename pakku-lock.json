@@ -2138,6 +2138,43 @@
             ]
         },
         {
+            "pakku_id": "HTr0OoKkDCw2Zk9T",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "mob-control"
+            },
+            "name": {
+                "modrinth": "Mob Control"
+            },
+            "id": {
+                "modrinth": "4gTwBSot"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "mobcontrol-1.21.1-2.0.1-beta-1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/4gTwBSot/versions/dYHQMJdk/mobcontrol-1.21.1-2.0.1-beta-1.jar",
+                    "id": "dYHQMJdk",
+                    "parent_id": "4gTwBSot",
+                    "hashes": {
+                        "sha512": "50ddb81030a93bfef54ae0f5de8287a4c0eb9e743bbe72534a063e867dce7b1005f00b2f27fd26117cd97ca3aee1b87cc5cb99a35fa1b962de35f3315bccefbd",
+                        "sha1": "114af8d1225ae96fa23b7dd52e00072a9e56cdd5"
+                    },
+                    "required_dependencies": [],
+                    "size": 228209,
+                    "date_published": "2026-06-12T21:29:12.034308Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pWtbHJKdAaU83viz",
             "type": "MOD",
             "side": "BOTH",
