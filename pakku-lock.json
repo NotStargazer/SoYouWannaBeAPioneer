@@ -1660,43 +1660,6 @@
             ]
         },
         {
-            "pakku_id": "4iruzKduzv7PJ4nv",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "fallingleavesforge"
-            },
-            "name": {
-                "modrinth": "Falling Leaves (NeoForge/Forge)"
-            },
-            "id": {
-                "modrinth": "2JAUNCL4"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "fallingleaves-1.21.1-2.5.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/PVzaPLSv/fallingleaves-1.21.1-2.5.1.jar",
-                    "id": "PVzaPLSv",
-                    "parent_id": "2JAUNCL4",
-                    "hashes": {
-                        "sha512": "9cc6ec387bce1a68f07b08bf1a2a65dc49ad409070f8cf58147d3cdbb9b82300d4a7184e01cf58a82886fb57156e6875b2cf7c4abb15335f8fd15be1de58400f",
-                        "sha1": "93f479691d5a88775d90e9fa19e814b7301a363b"
-                    },
-                    "required_dependencies": [],
-                    "size": 153343,
-                    "date_published": "2025-02-26T20:37:54.533055Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "seXiE8bcvG5MtmTw",
             "type": "MOD",
             "side": "BOTH",
@@ -2738,6 +2701,67 @@
                     "required_dependencies": [],
                     "size": 605458,
                     "date_published": "2026-05-08T00:39:53.547429Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nAXsZVV3zB3rX6uq",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "particular-reforged",
+                "modrinth": "particular-reforged"
+            },
+            "name": {
+                "curseforge": "Particular ✨ Reforged",
+                "modrinth": "Particular ✨ Reforged"
+            },
+            "id": {
+                "curseforge": "1219053",
+                "modrinth": "pYFUU6cq"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "particular-1.21.1-NeoForge-1.5.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8268/335/particular-1.21.1-NeoForge-1.5.4.jar",
+                    "id": "8268335",
+                    "parent_id": "1219053",
+                    "hashes": {
+                        "sha1": "074c666f22534588f5a281078b1e3c4403fb6a7e",
+                        "md5": "d42788545882832e97a354967269df43"
+                    },
+                    "required_dependencies": [],
+                    "size": 313837,
+                    "date_published": "2026-06-17T19:04:39.593Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "particular-1.21.1-NeoForge-1.5.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pYFUU6cq/versions/qt3R54R9/particular-1.21.1-NeoForge-1.5.4.jar",
+                    "id": "qt3R54R9",
+                    "parent_id": "pYFUU6cq",
+                    "hashes": {
+                        "sha512": "ebd045e7767c9c73a74f19a292fb72e8ff5af0bfd90583f64d5465d9e3bb12c0d126be02671683d26bf097a2adbcf668e9b34aaee6086690bcdc508a1f227756",
+                        "sha1": "074c666f22534588f5a281078b1e3c4403fb6a7e"
+                    },
+                    "required_dependencies": [],
+                    "size": 313837,
+                    "date_published": "2026-06-17T19:05:15.707914Z"
                 }
             ]
         },
