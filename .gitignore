@@ -65,3 +65,8 @@ build/
 !/config/naturaltemperature-common.toml
 !/config/biomespawnpoint
 !/config/structurecontrol-server.toml
+
+# incontrol
+!/config/incontrol/
+/config/incontrol/*
+!/config/incontrol/spawn.json

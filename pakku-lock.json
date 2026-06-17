@@ -1755,6 +1755,67 @@
             ]
         },
         {
+            "pakku_id": "XtP9xummd15Xtyvq",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "in-control",
+                "modrinth": "in-control"
+            },
+            "name": {
+                "curseforge": "In Control!",
+                "modrinth": "In Control!"
+            },
+            "id": {
+                "curseforge": "257356",
+                "modrinth": "KpICtuVx"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "incontrol-1.21-10.2.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7436/215/incontrol-1.21-10.2.6.jar",
+                    "id": "7436215",
+                    "parent_id": "257356",
+                    "hashes": {
+                        "sha1": "8b25ac143e5c2392336d0f899160bdfe1ee3d1a5",
+                        "md5": "c1c93f3fe9ba34f8037a6b55f6a1f024"
+                    },
+                    "required_dependencies": [],
+                    "size": 347280,
+                    "date_published": "2026-01-09T05:39:56.520Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "incontrol-1.21-10.2.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/KpICtuVx/versions/TBI4EWjs/incontrol-1.21-10.2.6.jar",
+                    "id": "TBI4EWjs",
+                    "parent_id": "KpICtuVx",
+                    "hashes": {
+                        "sha512": "1cf51cc45694cdca31dfd9cb97d7bd9bf1131768aca040b8eed8677452783143f8a8d8c21153871ab92cd31b64096b1c074bdb8dd389e19b5a0b772079a7f80c",
+                        "sha1": "7671cdc14af14166e72eff07eab7e55d81b52a41"
+                    },
+                    "required_dependencies": [],
+                    "size": 347278,
+                    "date_published": "2026-01-09T05:40:08.749707Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KWdffFb6BEfdIUAc",
             "type": "MOD",
             "side": "BOTH",
