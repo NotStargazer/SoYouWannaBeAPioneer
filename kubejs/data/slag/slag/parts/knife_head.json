@@ -1,0 +1,10 @@
+{
+  "id": "slag:knife_head",
+  "item_tags": [
+    "slag:cast/knife_heads"
+  ],
+  "segment_part": "slag:parts/knife_heads",
+  "sharpness_modifier": 0.5,
+  "sort_order": 2,
+  "speed_modifier": 0.5
+}

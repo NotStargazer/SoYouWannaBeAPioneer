@@ -1,4 +1,4 @@
-const { $ItemModificationKubeEvent } = require("@package/dev/latvian/mods/kubejs/item");
+import { $ItemModificationKubeEvent } from "@package/dev/latvian/mods/kubejs/item";
 
 const tool_types = {
   shovel: "shovel",
@@ -6,14 +6,10 @@ const tool_types = {
   axe: "axe",
   hoe: "hoe",
   sword: "sword",
-}
-
-/**
- * 
- * @param {Item} event 
- */
-const registerTools = (event) => {
-  
 };
 
-
+/**
+ *
+ * @param {Item} event
+ */
+const registerTools = (event) => {};

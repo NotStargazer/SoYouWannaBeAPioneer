@@ -3,8 +3,7 @@ import { $Item } from "@package/net/minecraft/world/item";
 import { TagEvent } from "@side-only/server/events";
 
 /**
- * 
- * @param {TagEvent<$Item>} event 
+ *
+ * @param {TagEvent<$Item>} event
  */
-const minecraftTags = (event) => {
-}
+const minecraftTags = (event) => {};
