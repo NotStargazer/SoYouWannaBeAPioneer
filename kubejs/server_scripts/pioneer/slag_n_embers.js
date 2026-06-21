@@ -18,6 +18,7 @@ const tool_part = {
   hoe: "hoe_head",
   sword: "sword_blade",
   guard: "guard",
+  knife: "knife_head",
 };
 
 const tool = {
@@ -27,6 +28,7 @@ const tool = {
   hoe: "hoe",
   sword: "sword",
   guard: "guard",
+  knife: "knife",
 };
 
 /**
@@ -61,7 +63,7 @@ const slagRecipes = (event) => {
   event.remove({ output: "#minecraft:hoes" });
   event.remove({ output: "#minecraft:swords" });
 
-  //Stone
+  //Early Tools
   event.shaped(getSlagPart(material.stone, tool_part.pickaxe), [" C ", "RRR"], {
     R: "#pioneer:rocks",
     C: "#minecraft:stone_crafting_materials",

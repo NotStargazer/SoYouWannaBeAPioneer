@@ -7,6 +7,7 @@ ServerEvents.tags("item", (event) => {
 
 ServerEvents.recipes((event) => {
   slagRecipes(event);
+  minecraftRecipes(event);
 });
 
 LootJS.lootTables(event => {
