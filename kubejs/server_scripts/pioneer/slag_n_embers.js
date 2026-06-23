@@ -43,6 +43,10 @@ const getSlagTool = (material, tool) => {
     return `slag:modular_item[slag:dynamic_parts=[{components:{"slag:built":"slag:${tool}","slag:material_type":"slag:${material}","slag:part_type":"slag:${tp}"},count:1,id:"slag:dynamic_part"},{components:{"slag:built":"slag:${tool}"},count:2,id:"minecraft:stick"}],slag:modular_type="slag:${tool}"]`;
 };
 
+const getSlagToolIngredient = (tool) => {
+  return `slag:modular_item[slag:modular_type="slag:${tool}"]`
+}
+
 /**
  *
  * @returns {string}

@@ -3012,7 +3012,7 @@
             ]
         },
         {
-            "pakku_id": "D10HHOXYkMPkGd0O",
+            "pakku_id": "puhjnshYVckgKQ57",
             "type": "MOD",
             "slug": {
                 "github": "NotStargazer/Slag-Data-Compat"
@@ -3029,12 +3029,12 @@
                     "file_name": "slagcompat-1.1.jar",
                     "release_type": "release",
                     "url": "https://github.com/NotStargazer/Slag-Data-Compat/releases/download/v1.1/slagcompat-1.1.jar",
-                    "id": "455045448",
+                    "id": "455076104",
                     "parent_id": "1275513126",
                     "hashes": {
-                        "sha256": "62bbc5e6853a4ea28e9f61504c3bc05988b79dc895e3e94028d832f63440595d"
+                        "sha256": "9c4be7415d47b27d4c337c85e475aeed4d379af983d65468a4c880bb042e1074"
                     },
-                    "size": 10397,
+                    "size": 10496,
                     "date_published": "2026-06-22T23:10:50Z"
                 }
             ]
