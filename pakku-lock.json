@@ -1087,74 +1087,6 @@
             ]
         },
         {
-            "pakku_id": "ukqTLZkMd1cznhEa",
-            "pakku_links": [
-                "fx5zYgxCqgw3SS5E"
-            ],
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "curseforge": "cristel-lib",
-                "modrinth": "cristel-lib"
-            },
-            "name": {
-                "curseforge": "Cristel Lib",
-                "modrinth": "Cristel Lib"
-            },
-            "id": {
-                "curseforge": "856996",
-                "modrinth": "cl223EMc"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "cristellib-neoforge-1.21.1-3.1.6.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8177/165/cristellib-neoforge-1.21.1-3.1.6.jar",
-                    "id": "8177165",
-                    "parent_id": "856996",
-                    "hashes": {
-                        "sha1": "040b80a5736a414a53d74e2818e1e62b61e569f0",
-                        "md5": "7cf23ccfac8459d0a43a50d8e4c1adc4"
-                    },
-                    "required_dependencies": [
-                        "348521"
-                    ],
-                    "size": 582932,
-                    "date_published": "2026-05-31T21:01:18.163Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "cristellib-neoforge-1.21.1-3.1.6.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/cl223EMc/versions/GlBkE8Zq/cristellib-neoforge-1.21.1-3.1.6.jar",
-                    "id": "GlBkE8Zq",
-                    "parent_id": "cl223EMc",
-                    "hashes": {
-                        "sha512": "75be7ed73633e40cf5cb03b8e737803ef55e18814bf46466df8920dee6f0bea760652db328d2f0be19cf6fee965f7525a7440b22199ed4f79a268dc7aec9e59a",
-                        "sha1": "040b80a5736a414a53d74e2818e1e62b61e569f0"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g"
-                    ],
-                    "size": 582932,
-                    "date_published": "2026-05-31T21:01:22.924625Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "NbUiGwoNWytlrKVs",
             "type": "MOD",
             "side": "BOTH",
@@ -3036,6 +2968,57 @@
             ]
         },
         {
+            "pakku_id": "iIWjVX9UJcTkuEOL",
+            "pakku_links": [
+                "i7jLxm2auSXh0kAz"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "still-life",
+                "modrinth": "still-life"
+            },
+            "name": {
+                "curseforge": "Still Life Curseforge Port",
+                "modrinth": "Still Life"
+            },
+            "id": {
+                "curseforge": "1568354",
+                "modrinth": "fK6aflho"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "still-life-0.1.1.jar",
+                    "mc_versions": [
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/fK6aflho/versions/Jerfht2T/still-life-0.1.1.jar",
+                    "id": "Jerfht2T",
+                    "parent_id": "fK6aflho",
+                    "hashes": {
+                        "sha512": "eef8f96c268f697040fa92d95abe0c7860d9e594ee8fc195a1644a97c7c0248ad9ce189abc530ef63c6a31622bc2ce27c63d2b6ddd9cce29f0b2628797bc307e",
+                        "sha1": "7e066d72ebc4e78f42f49ea9bd899b89b8fc5105"
+                    },
+                    "required_dependencies": [
+                        "iv9jp2k9"
+                    ],
+                    "size": 4714182,
+                    "date_published": "2025-07-25T16:46:10.637840Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "IlMI6CelOi84IxdQ",
             "type": "MOD",
             "side": "BOTH",
@@ -3131,48 +3114,6 @@
                     "required_dependencies": [],
                     "size": 562973,
                     "date_published": "2025-07-15T09:35:16.158222Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "lU9WD4NpyI8Z497J",
-            "pakku_links": [
-                "ukqTLZkMd1cznhEa"
-            ],
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "wwoo"
-            },
-            "name": {
-                "modrinth": "William Wythers' Overhauled Overworld"
-            },
-            "id": {
-                "modrinth": "II7t6llZ"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "wwoo-neoforge-2.6.7.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/II7t6llZ/versions/sU7oaRZv/wwoo-neoforge-2.6.7.jar",
-                    "id": "sU7oaRZv",
-                    "parent_id": "II7t6llZ",
-                    "hashes": {
-                        "sha512": "25fbb4ba43b4031bf6b17788b95ad1374b5bd512a450c2391b4adcaba726804c43e6f91b1a2139ff2af9ae473d3ae990c4b386c52280e0a2330034f5f1b08572",
-                        "sha1": "bfc20e94b4a8ad630654993d5799bcca36fe238d"
-                    },
-                    "required_dependencies": [
-                        "cl223EMc"
-                    ],
-                    "size": 5764879,
-                    "date_published": "2026-05-28T15:02:04.988934Z"
                 }
             ]
         },
