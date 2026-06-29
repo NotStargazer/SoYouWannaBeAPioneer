@@ -67,3 +67,4 @@ build/
 !/config/biomespawnpoint
 !/config/structurecontrol-server.toml
 !/config/betterharvestlevel
+!config/emixx/emixx.json
