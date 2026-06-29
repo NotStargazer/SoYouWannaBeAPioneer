@@ -42,6 +42,7 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 emi.json
+WorldOpenFlows.class
 
 # Pakku
 build/
