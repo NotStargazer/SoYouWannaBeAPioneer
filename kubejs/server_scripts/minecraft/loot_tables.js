@@ -7,7 +7,7 @@ import { $LootTableEvent } from "@package/com/almostreliable/lootjs/loot";
  */
 const minecraftLootTables = (event) => {
 
-  Block.getTaggedIds("pioneer:drops_straw").forEach((grass_block) => {
+  Block.getTaggedIds(`${global.pack.name}:drops_straw`).forEach((grass_block) => {
     event
       .getBlockTable(grass_block)
       .firstPool()

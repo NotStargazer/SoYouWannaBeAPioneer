@@ -16,12 +16,12 @@ const slagRecipes = (event) => {
   event.remove({ output: "#minecraft:swords" });
 
   //Early Tools
-  createPartRecipes(event, slagUtil.material.stone, "#pioneer:rocks", "#minecraft:stone_crafting_materials");
+  createPartRecipes(event, slagUtil.material.stone, `#${global.pack.name}:rocks`, "#minecraft:stone_crafting_materials");
   createPartRecipes(event, slagUtil.material.flint, "minecraft:flint", slagUtil.getToolIngredient(slagUtil.tool.knife), (r) => {
     r.damageIngredient(slagUtil.getToolIngredient(slagUtil.tool.knife));
   });
 
-  event.shapeless(slagUtil.getPart(slagUtil.material.flint, slagUtil.tool_part.knife), ["minecraft:flint", "#pioneer:rocks"]);
+  event.shapeless(slagUtil.getPart(slagUtil.material.flint, slagUtil.tool_part.knife), ["minecraft:flint", `#${global.pack.name}:rocks`]);
 
   createToolRecipes(event, slagUtil.material.stone);
   createToolRecipes(event, slagUtil.material.flint);
