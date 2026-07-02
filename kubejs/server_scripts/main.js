@@ -15,8 +15,11 @@ ServerEvents.recipes((event) => {
 
 
 ServerEvents.tags("item", (event) => {
-  minecraftTags(event);
-  vibrantJournyTags(event);
+  vibrantJournyItemTags(event);
+});
+
+ServerEvents.tags("block", (event) => {
+  vibrantJournyBlockTags(event);
 });
 
 LootJS.lootTables(event => {
