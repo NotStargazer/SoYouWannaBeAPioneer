@@ -10,6 +10,7 @@ RecipeViewerEvents.removeEntries("item", (event) => {
 
 ServerEvents.recipes((event) => {
   slagRecipes(event);
+  overgearedRecipes(event);
   minecraftRecipes(event);
 });
 

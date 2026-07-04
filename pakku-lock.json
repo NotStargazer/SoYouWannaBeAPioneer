@@ -606,6 +606,74 @@
             ]
         },
         {
+            "pakku_id": "QMKFyvS4j4yeIyy4",
+            "pakku_links": [
+                "JyBSCLAVojTeqHyC"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-metallurgy",
+                "modrinth": "create-metallurgy"
+            },
+            "name": {
+                "curseforge": "Create: Metallurgy",
+                "modrinth": "Create: Metallurgy"
+            },
+            "id": {
+                "curseforge": "1007404",
+                "modrinth": "Soft45xC"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createmetallurgy-1.0.3-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8128/243/createmetallurgy-1.0.3-1.21.1.jar",
+                    "id": "8128243",
+                    "parent_id": "1007404",
+                    "hashes": {
+                        "sha1": "ece75dfa1eb907bce3ace729c0144df0b2451673",
+                        "md5": "2d0e18f5ae16a7b9154fb4bae25c1064"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 2035560,
+                    "date_published": "2026-05-22T16:10:37.460Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "createmetallurgy-1.0.3-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Soft45xC/versions/4RhIMmaJ/createmetallurgy-1.0.3-1.21.1.jar",
+                    "id": "4RhIMmaJ",
+                    "parent_id": "Soft45xC",
+                    "hashes": {
+                        "sha512": "e052bddbeb39b68c1482cfe2ebf9919db17d40d71e9f46f96375d82ec876dc0abb4e15b2c14cd1a9e7636d7f80166b2ec336507df7fcc452fd871cc4873ef881",
+                        "sha1": "ece75dfa1eb907bce3ace729c0144df0b2451673"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 2035560,
+                    "date_published": "2026-05-22T16:05:17.250175Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3kcm1Tv03jsgghyF",
             "pakku_links": [
                 "JyBSCLAVojTeqHyC"
@@ -2620,6 +2688,67 @@
             ]
         },
         {
+            "pakku_id": "mYIpUuaDjmIhxAtV",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "overgeared",
+                "modrinth": "overgeared"
+            },
+            "name": {
+                "curseforge": "Overgeared",
+                "modrinth": "Overgeared"
+            },
+            "id": {
+                "curseforge": "1277786",
+                "modrinth": "SQL3X2Ky"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "overgeared-1.21.1-1.6.16.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8298/434/overgeared-1.21.1-1.6.16.jar",
+                    "id": "8298434",
+                    "parent_id": "1277786",
+                    "hashes": {
+                        "sha1": "130e2974d57bfeb550334679a226e60a87b85ad1",
+                        "md5": "a27b647eb4f7356c88c424e9ca887232"
+                    },
+                    "required_dependencies": [],
+                    "size": 1454390,
+                    "date_published": "2026-06-22T06:00:07.317Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "overgeared-1.21.1-1.6.16.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SQL3X2Ky/versions/otsHkv1p/overgeared-1.21.1-1.6.16.jar",
+                    "id": "otsHkv1p",
+                    "parent_id": "SQL3X2Ky",
+                    "hashes": {
+                        "sha512": "3fa45c11c7aeae5c5c4afe8520b51f21d1c242471b9187c0a355abc1db162d7bd00d73ba9f356885168498eb41abed784e0fc3ffed93e9ab295d7fd7144ced0a",
+                        "sha1": "130e2974d57bfeb550334679a226e60a87b85ad1"
+                    },
+                    "required_dependencies": [],
+                    "size": 1454390,
+                    "date_published": "2026-06-22T06:00:59.334995Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "7FRpVwqz6ilxH5Bg",
             "type": "MOD",
             "side": "BOTH",
@@ -3202,68 +3331,6 @@
                     "required_dependencies": [],
                     "size": 45617,
                     "date_published": "2025-12-27T12:41:12.626398Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "YC9XpAae17D9lTgz",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "uniful",
-                "modrinth": "uniful"
-            },
-            "name": {
-                "curseforge": "Uniful",
-                "modrinth": "Uniful"
-            },
-            "id": {
-                "curseforge": "1302366",
-                "modrinth": "edns7lHB"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "unify-1.0a.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6771/148/unify-1.0a.jar",
-                    "id": "6771148",
-                    "parent_id": "1302366",
-                    "hashes": {
-                        "sha1": "d7dc0379c49cd881d671a8e2cb846052060f2226",
-                        "md5": "526e945813942670d3995cbfa72212b4"
-                    },
-                    "required_dependencies": [],
-                    "size": 562973,
-                    "date_published": "2025-07-15T09:34:44.880Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "unify-1.0a.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/edns7lHB/versions/t3AXHtxQ/unify-1.0a.jar",
-                    "id": "t3AXHtxQ",
-                    "parent_id": "edns7lHB",
-                    "hashes": {
-                        "sha512": "16d3ee261ce3433234d335c6946ef29e94eb7998e6f671281d2c1427b29b036f5ef0bb18098017ea90a772f6919ee1f8930832e0e6473ea97758915f6d150891",
-                        "sha1": "d7dc0379c49cd881d671a8e2cb846052060f2226"
-                    },
-                    "required_dependencies": [],
-                    "size": 562973,
-                    "date_published": "2025-07-15T09:35:16.158222Z"
                 }
             ]
         },
