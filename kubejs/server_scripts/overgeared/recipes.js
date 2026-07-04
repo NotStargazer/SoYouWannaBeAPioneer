@@ -1,37 +1,38 @@
 // priority: 0
 import { $RecipesKubeEvent } from "@package/dev/latvian/mods/kubejs/recipe";
+import { event } from "@package/org/slf4j";
+
+const knapping_patterns = {
+  pickaxe: [" x ", "x x"],
+  shovel: ["xx", "xx"],
+  axe: ["xxx", "xx "],
+  hoe: [" xx", "x  "],
+  sword: ["x", "x", "x"],
+  guard: ["xxx", " x "],
+  knife: [" x", "x "],
+};
 
 /**
- * 
+ *
  * @param {$RecipesKubeEvent} event
  */
 const overgearedRecipes = (event) => {
-    event.custom(overgearedUtil.knappingRecipe(
-        Item.of(slagUtil.getPart(slagUtil.material.stone, slagUtil.tool_part.pickaxe)),
-        "#pioneer:rocks",
-        [" x ", "x x"]));
-    event.custom(overgearedUtil.knappingRecipe(
-        Item.of(slagUtil.getPart(slagUtil.material.stone, slagUtil.tool_part.shovel)),
-        "#pioneer:rocks",
-        ["xx", "xx"]));
-    event.custom(overgearedUtil.knappingRecipe(
-        Item.of(slagUtil.getPart(slagUtil.material.stone, slagUtil.tool_part.axe)),
-        "#pioneer:rocks",
-        ["xxx", "xx "]));
-    event.custom(overgearedUtil.knappingRecipe(
-        Item.of(slagUtil.getPart(slagUtil.material.stone, slagUtil.tool_part.hoe)),
-        "#pioneer:rocks",
-        [" xx", "x  "]));
-    event.custom(overgearedUtil.knappingRecipe(
-        Item.of(slagUtil.getPart(slagUtil.material.stone, slagUtil.tool_part.sword)),
-        "#pioneer:rocks",
-        ["x", "x", "x"]));
-    event.custom(overgearedUtil.knappingRecipe(
-        Item.of(slagUtil.getPart(slagUtil.material.stone, slagUtil.tool_part.guard)),
-        "#pioneer:rocks",
-        ["xxx", " x "]));
-    event.custom(overgearedUtil.knappingRecipe(
-        Item.of(slagUtil.getPart(slagUtil.material.stone, slagUtil.tool_part.knife)),
-        "#pioneer:rocks",
-        [" x", "x "]));
-}
+    createPartRecipes(event, slagUtil.material.stone, `#${global.pack.name}:rocks`);
+    createPartRecipes(event, slagUtil.material.flint, `minecraft:flint`);
+};
+
+/**
+ *
+ * @param {$RecipesKubeEvent} event
+ */
+const createPartRecipes = (event, material, ingredient) => {
+  Object.entries(knapping_patterns).forEach(([key, pattern]) => {
+    event.custom(
+      overgearedUtil.knappingRecipe(
+        Item.of(slagUtil.getPart(material, slagUtil.tool_part[key])),
+        ingredient,
+        pattern,
+      ),
+    );
+  });
+};

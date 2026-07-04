@@ -15,12 +15,6 @@ const slagRecipes = (event) => {
   event.remove({ output: "#minecraft:hoes" });
   event.remove({ output: "#minecraft:swords" });
 
-  //Early Tools
-  createPartRecipes(event, slagUtil.material.stone, `#${global.pack.name}:rocks`, "#minecraft:stone_crafting_materials");
-  createPartRecipes(event, slagUtil.material.flint, "minecraft:flint", slagUtil.getToolIngredient(slagUtil.tool.knife), (r) => {
-    r.damageIngredient(slagUtil.getToolIngredient(slagUtil.tool.knife));
-  });
-
   event.shapeless(slagUtil.getPart(slagUtil.material.flint, slagUtil.tool_part.knife), ["minecraft:flint", `#${global.pack.name}:rocks`]);
 
   createToolRecipes(event, slagUtil.material.stone);
@@ -51,43 +45,4 @@ const createToolRecipes = (event, material) => {
     slagUtil.getPart(material, slagUtil.tool_part.knife),
     "minecraft:stick",
   ]);
-};
-
-/**
- *
- * @param {$RecipesKubeEvent} event
- */
-const createPartRecipes = (event, material, ingredient, knappingIngredient, processor) => {
-  var recipe = [
-    event.shaped(slagUtil.getPart(material, slagUtil.tool_part.pickaxe), ["RRR", " C "], {
-      R: ingredient,
-      C: knappingIngredient,
-    }),
-    event.shaped(slagUtil.getPart(material, slagUtil.tool_part.shovel), ["R", "C"], {
-      R: ingredient,
-      C: knappingIngredient,
-    }),
-    event.shaped(slagUtil.getPart(material, slagUtil.tool_part.axe), ["RR", "RC"], {
-      R: ingredient,
-      C: knappingIngredient,
-    }),
-    event.shaped(slagUtil.getPart(material, slagUtil.tool_part.hoe), ["RR", " C"], {
-      R: ingredient,
-      C: knappingIngredient,
-    }),
-    event.shaped(slagUtil.getPart(material, slagUtil.tool_part.sword), ["R", "R", "C"], {
-      R: ingredient,
-      C: knappingIngredient,
-    }),
-    event.shaped(slagUtil.getPart(material, slagUtil.tool_part.guard), ["RCR"], {
-      R: ingredient,
-      C: knappingIngredient,
-    }),
-  ];
-
-  if (processor !== undefined) {
-    recipe.forEach((r) => {
-      processor(r);
-    });
-  }
 };
