@@ -109,52 +109,6 @@
             ]
         },
         {
-            "pakku_id": "cWKaj3G7WbZTjCfg",
-            "pakku_links": [
-                "ufgJxM6AtTcQst6S"
-            ],
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "biome-spawn-point"
-            },
-            "name": {
-                "modrinth": "Biome Spawn Point"
-            },
-            "id": {
-                "modrinth": "mtfbtanr"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "biomespawnpoint-1.21.1-2.4.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/mtfbtanr/versions/WCzp4bMK/biomespawnpoint-1.21.1-2.4.jar",
-                    "id": "WCzp4bMK",
-                    "parent_id": "mtfbtanr",
-                    "hashes": {
-                        "sha512": "da8fd49be669c68636372ad1d7546eab2342e15f9b645224ac341ef4600ad40546d39e81f3ff3f3a47063cd433742a588f17a27fc256753308fe1a4db9fa5fbb",
-                        "sha1": "7e0b120679be73711eac3330dad5ec20f79356f4"
-                    },
-                    "required_dependencies": [
-                        "e0M1UDsY"
-                    ],
-                    "size": 48170,
-                    "date_published": "2025-02-12T18:51:23.344249Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "fx5zYgxCqgw3SS5E",
             "type": "MOD",
             "side": "BOTH",
@@ -214,75 +168,6 @@
                     "required_dependencies": [],
                     "size": 1163890,
                     "date_published": "2024-09-16T17:18:02.926305Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "ufgJxM6AtTcQst6S",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "collective",
-                "modrinth": "collective"
-            },
-            "name": {
-                "curseforge": "Collective",
-                "modrinth": "Collective"
-            },
-            "id": {
-                "curseforge": "342584",
-                "modrinth": "e0M1UDsY"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "collective-1.21.1-8.25.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8210/988/collective-1.21.1-8.25.jar",
-                    "id": "8210988",
-                    "parent_id": "342584",
-                    "hashes": {
-                        "sha1": "24a7868eb9b461f9fb6d92481ab08ceaf95ef6b4",
-                        "md5": "897eb7ff6f64e1f6f91b26ac812fd228"
-                    },
-                    "required_dependencies": [],
-                    "size": 988681,
-                    "date_published": "2026-06-07T14:05:29.073Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "collective-1.21.1-8.25.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/IocRsdQH/collective-1.21.1-8.25.jar",
-                    "id": "IocRsdQH",
-                    "parent_id": "e0M1UDsY",
-                    "hashes": {
-                        "sha512": "4d8358229be3eb75b0913451788f7c314abb78e256f3e10d3a79fe87d16bb99f4e5d6bfd06c724cbeb26f590943a0d3504ec9e6f028f00bd43c6616f49069cf9",
-                        "sha1": "24a7868eb9b461f9fb6d92481ab08ceaf95ef6b4"
-                    },
-                    "required_dependencies": [],
-                    "size": 988681,
-                    "date_published": "2026-06-07T14:05:40.649417Z"
                 }
             ]
         },
@@ -1279,6 +1164,43 @@
             ]
         },
         {
+            "pakku_id": "kk1fkePCdU83TNH9",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "dynamic-waters-realistic-flowing-rivers"
+            },
+            "name": {
+                "modrinth": "Dynamic Waters: Realistic Flowing Rivers"
+            },
+            "id": {
+                "modrinth": "wL4lvEci"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "dynamicwaters-11.1.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/wL4lvEci/versions/UzvLVEOA/dynamicwaters-11.1.1.jar",
+                    "id": "UzvLVEOA",
+                    "parent_id": "wL4lvEci",
+                    "hashes": {
+                        "sha512": "c0d4d7ac2d887a006170c912835e7fb78cab16ff8206ef4e10f1d0052887604868f14c217f1e919a66c609473a30c870bc3160d400bc46f44e7390c2da799578",
+                        "sha1": "b2b8f0a9933775e24eb2070003deb8124b834dc8"
+                    },
+                    "required_dependencies": [],
+                    "size": 201393,
+                    "date_published": "2026-07-01T17:46:26.750140Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KTdnRbgBS9EMjUdJ",
             "type": "MOD",
             "side": "CLIENT",
@@ -1531,6 +1453,81 @@
             ]
         },
         {
+            "pakku_id": "Ulax2AxrAhjZmrSZ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "zfastnoise",
+                "modrinth": "zfastnoise"
+            },
+            "name": {
+                "curseforge": "Fast Noise",
+                "modrinth": "Fast Noise"
+            },
+            "id": {
+                "curseforge": "1460602",
+                "modrinth": "OnlVIpq5"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "zfastnoise-1.0.12+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.8",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8294/347/zfastnoise-1.0.12+1.21.1+neoforge.jar",
+                    "id": "8294347",
+                    "parent_id": "1460602",
+                    "hashes": {
+                        "sha1": "c05d89372ddc1291513bbaef617e60a6f6308498",
+                        "md5": "70595f93d10b9a3298a1bb101b63cec4"
+                    },
+                    "required_dependencies": [],
+                    "size": 35120,
+                    "date_published": "2026-06-21T15:38:02.410Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "zfastnoise-1.0.12+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/OnlVIpq5/versions/3kqaDLhL/zfastnoise-1.0.12+1.21.1+neoforge.jar",
+                    "id": "3kqaDLhL",
+                    "parent_id": "OnlVIpq5",
+                    "hashes": {
+                        "sha512": "9e6511a0936c64797c1f297c64c00c9372e677be11b0f0025be3ae0ae1893c5b22ba8726a8f44f42c90fc439998c4b8a675302a790e3bf4237d2157b715d91a1",
+                        "sha1": "c05d89372ddc1291513bbaef617e60a6f6308498"
+                    },
+                    "required_dependencies": [],
+                    "size": 35120,
+                    "date_published": "2026-06-21T15:36:23.187979Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "seXiE8bcvG5MtmTw",
             "type": "MOD",
             "side": "BOTH",
@@ -1625,6 +1622,73 @@
                     "required_dependencies": [],
                     "size": 622582,
                     "date_published": "2026-03-03T20:06:25.035771Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dTYSNFnLGGA7rM1J",
+            "pakku_links": [
+                "QJg5jZJeqVXopgAv"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "genesis-world-previewer-pregenerator",
+                "modrinth": "genesis-world-previewer-pregenerator"
+            },
+            "name": {
+                "curseforge": "Genesis - World Previewer & Pregenerator",
+                "modrinth": "Genesis - World Previewer & Pregenerator"
+            },
+            "id": {
+                "curseforge": "1544492",
+                "modrinth": "xXuFelru"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "genesis-1.1.0-1.21.1-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8161/324/genesis-1.1.0-1.21.1-NEOFORGE.jar",
+                    "id": "8161324",
+                    "parent_id": "1544492",
+                    "hashes": {
+                        "sha1": "50c4f24252eb409e0ff1d14cef4d8f0d12d861f9",
+                        "md5": "9afeeeca8150245f210035ace4ae42b4"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 93689,
+                    "date_published": "2026-05-28T20:04:58.687Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "genesis-1.1.0-1.21.1-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/xXuFelru/versions/rUbPw3w3/genesis-1.1.0-1.21.1-NEOFORGE.jar",
+                    "id": "rUbPw3w3",
+                    "parent_id": "xXuFelru",
+                    "hashes": {
+                        "sha512": "4fb02e772fc0c701cf7ab077c39862e591b971ea39f9534b228c3bce56f14b7ded8dfbe8f75c2da0e5769a9aa1615f33adbb421c18162204c88d1a462ed1d3ec",
+                        "sha1": "50c4f24252eb409e0ff1d14cef4d8f0d12d861f9"
+                    },
+                    "required_dependencies": [],
+                    "size": 93689,
+                    "date_published": "2026-06-25T09:35:05.345748Z"
                 }
             ]
         },
