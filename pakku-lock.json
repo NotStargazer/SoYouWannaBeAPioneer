@@ -972,74 +972,6 @@
             ]
         },
         {
-            "pakku_id": "ukqTLZkMd1cznhEa",
-            "pakku_links": [
-                "fx5zYgxCqgw3SS5E"
-            ],
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "curseforge": "cristel-lib",
-                "modrinth": "cristel-lib"
-            },
-            "name": {
-                "curseforge": "Cristel Lib",
-                "modrinth": "Cristel Lib"
-            },
-            "id": {
-                "curseforge": "856996",
-                "modrinth": "cl223EMc"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "cristellib-neoforge-1.21.1-3.1.6.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8177/165/cristellib-neoforge-1.21.1-3.1.6.jar",
-                    "id": "8177165",
-                    "parent_id": "856996",
-                    "hashes": {
-                        "sha1": "040b80a5736a414a53d74e2818e1e62b61e569f0",
-                        "md5": "7cf23ccfac8459d0a43a50d8e4c1adc4"
-                    },
-                    "required_dependencies": [
-                        "348521"
-                    ],
-                    "size": 582932,
-                    "date_published": "2026-05-31T21:01:18.163Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "cristellib-neoforge-1.21.1-3.1.6.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/cl223EMc/versions/GlBkE8Zq/cristellib-neoforge-1.21.1-3.1.6.jar",
-                    "id": "GlBkE8Zq",
-                    "parent_id": "cl223EMc",
-                    "hashes": {
-                        "sha512": "75be7ed73633e40cf5cb03b8e737803ef55e18814bf46466df8920dee6f0bea760652db328d2f0be19cf6fee965f7525a7440b22199ed4f79a268dc7aec9e59a",
-                        "sha1": "040b80a5736a414a53d74e2818e1e62b61e569f0"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g"
-                    ],
-                    "size": 582932,
-                    "date_published": "2026-05-31T21:01:22.924625Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "NbUiGwoNWytlrKVs",
             "type": "MOD",
             "side": "BOTH",
@@ -1160,6 +1092,206 @@
                     "required_dependencies": [],
                     "size": 220193,
                     "date_published": "2026-01-29T18:23:47.709725Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "7lj3BkgDyfbZtbWK",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "dynamictrees",
+                "modrinth": "dynamictrees"
+            },
+            "name": {
+                "curseforge": "Dynamic Trees",
+                "modrinth": "Dynamic Trees"
+            },
+            "id": {
+                "curseforge": "252818",
+                "modrinth": "vdjF5PL5"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dynamictrees-neoforge-1.21.1-1.7.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8227/322/dynamictrees-neoforge-1.21.1-1.7.2.jar",
+                    "id": "8227322",
+                    "parent_id": "252818",
+                    "hashes": {
+                        "sha1": "c16fae939c0f305af46ad585150a33565a06129e",
+                        "md5": "e17f18713dab161a0ff00522e5939353"
+                    },
+                    "required_dependencies": [],
+                    "size": 3399913,
+                    "date_published": "2026-06-10T16:29:20.790Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "dynamictrees-neoforge-1.21.1-1.7.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vdjF5PL5/versions/G4uJ0UA0/dynamictrees-neoforge-1.21.1-1.7.2.jar",
+                    "id": "G4uJ0UA0",
+                    "parent_id": "vdjF5PL5",
+                    "hashes": {
+                        "sha512": "1faa5f292078fbae45fd8ee9873d22e13522a883f6650e71d1f4755ccfe5c363f606e0d4dc422384553483043883002136921ce5efb544c70d412affb2da076f",
+                        "sha1": "c16fae939c0f305af46ad585150a33565a06129e"
+                    },
+                    "required_dependencies": [],
+                    "size": 3399913,
+                    "date_published": "2026-06-10T16:29:20.737409Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "WOPKHGXUgCLcHfsv",
+            "pakku_links": [
+                "7lj3BkgDyfbZtbWK",
+                "6GsOxqxklK5Bxc2s"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "dynamic-trees-terralith",
+                "modrinth": "dynamic-trees-terralith"
+            },
+            "name": {
+                "curseforge": "Dynamic Trees - Terralith",
+                "modrinth": "Dynamic Trees - Terralith"
+            },
+            "id": {
+                "curseforge": "852886",
+                "modrinth": "o8eM9Cnp"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dtterralith-1.3.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7513/609/dtterralith-1.3.0.jar",
+                    "id": "7513609",
+                    "parent_id": "852886",
+                    "hashes": {
+                        "sha1": "0fb34ea2c594d6180eae9fd4cd6b416d662cf8a9",
+                        "md5": "722ce8c6acf58f4fb3e935bba63fac01"
+                    },
+                    "required_dependencies": [
+                        "252818",
+                        "513688"
+                    ],
+                    "size": 502351,
+                    "date_published": "2026-01-23T20:17:21.723Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "dtterralith-1.3.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/o8eM9Cnp/versions/L7qfjzNn/dtterralith-1.3.0.jar",
+                    "id": "L7qfjzNn",
+                    "parent_id": "o8eM9Cnp",
+                    "hashes": {
+                        "sha512": "216d3e65aff5f9b51fe78a81cd34e1c43dc786905dc95d715d7a5698172933e5abc3b337e4c6757349e83cd74f3ee53dabcc3ddddd189799b255908c1a2a32e2",
+                        "sha1": "0fb34ea2c594d6180eae9fd4cd6b416d662cf8a9"
+                    },
+                    "required_dependencies": [
+                        "8oi3bsk5",
+                        "vdjF5PL5"
+                    ],
+                    "size": 502351,
+                    "date_published": "2026-01-23T20:17:21.063831Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9oQnCK9vMV7xS8fw",
+            "pakku_links": [
+                "7lj3BkgDyfbZtbWK"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "dynamictreesplus",
+                "modrinth": "dynamictreesplus"
+            },
+            "name": {
+                "curseforge": "Dynamic Trees Plus",
+                "modrinth": "Dynamic Trees Plus"
+            },
+            "id": {
+                "curseforge": "478155",
+                "modrinth": "qaO9Dqpu"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DynamicTreesPlus-neoforge-1.21.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7698/617/DynamicTreesPlus-neoforge-1.21.1-1.3.2.jar",
+                    "id": "7698617",
+                    "parent_id": "478155",
+                    "hashes": {
+                        "sha1": "9f261be4cb8f83ffbc126f7198cdbe297f2b2166",
+                        "md5": "165cc0c91c46a77f83e6f33e0fdaa20d"
+                    },
+                    "required_dependencies": [
+                        "252818"
+                    ],
+                    "size": 530533,
+                    "date_published": "2026-03-01T23:29:11.747Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "DynamicTreesPlus-neoforge-1.21.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qaO9Dqpu/versions/LX5fWOvU/DynamicTreesPlus-neoforge-1.21.1-1.3.2.jar",
+                    "id": "LX5fWOvU",
+                    "parent_id": "qaO9Dqpu",
+                    "hashes": {
+                        "sha512": "e5ccd43fb43c6d1417fcc070f87a15a606ed062415bd00e72a8fb8ea30b195f5a23f5629e17844e232368653f0cd2bfd48d77b71aedd46fe64a92e7e7c731a76",
+                        "sha1": "9f261be4cb8f83ffbc126f7198cdbe297f2b2166"
+                    },
+                    "required_dependencies": [
+                        "vdjF5PL5"
+                    ],
+                    "size": 530533,
+                    "date_published": "2026-03-01T23:29:11.082250Z"
                 }
             ]
         },
@@ -3244,48 +3376,6 @@
                     "required_dependencies": [],
                     "size": 562973,
                     "date_published": "2025-07-15T09:35:16.158222Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "lU9WD4NpyI8Z497J",
-            "pakku_links": [
-                "ukqTLZkMd1cznhEa"
-            ],
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "wwoo"
-            },
-            "name": {
-                "modrinth": "William Wythers' Overhauled Overworld"
-            },
-            "id": {
-                "modrinth": "II7t6llZ"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "wwoo-neoforge-2.6.7.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/II7t6llZ/versions/sU7oaRZv/wwoo-neoforge-2.6.7.jar",
-                    "id": "sU7oaRZv",
-                    "parent_id": "II7t6llZ",
-                    "hashes": {
-                        "sha512": "25fbb4ba43b4031bf6b17788b95ad1374b5bd512a450c2391b4adcaba726804c43e6f91b1a2139ff2af9ae473d3ae990c4b386c52280e0a2330034f5f1b08572",
-                        "sha1": "bfc20e94b4a8ad630654993d5799bcca36fe238d"
-                    },
-                    "required_dependencies": [
-                        "cl223EMc"
-                    ],
-                    "size": 5764879,
-                    "date_published": "2026-05-28T15:02:04.988934Z"
                 }
             ]
         },
