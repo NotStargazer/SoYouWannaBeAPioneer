@@ -35,6 +35,7 @@ ESM/
 generated/
 .pg-native/
 command_history.txt
+.mixin.out/
 
 icon.png
 options.txt
@@ -42,7 +43,7 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 emi.json
-WorldOpenFlows.class
+.mixin.out/
 
 # Pakku
 build/
@@ -62,8 +63,8 @@ build/
 # configs, add exceptions below
 /config/*
 !/config/global_packs.toml
-!/config/sodium-mixins.properties
 !/config/naturaltemperature-common.toml
-!/config/biomespawnpoint
 !/config/structurecontrol-server.toml
+!/config/terralith.json
+!/config/dynamicwaters-common.toml
 !/config/betterharvestlevel
