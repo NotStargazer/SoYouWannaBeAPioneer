@@ -42,7 +42,7 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 emi.json
-.mixin.out/class/net/minecraft/client/gui/screens/worldselection/WorldOpenFlows.class
+.mixin.out/
 
 # Pakku
 build/
