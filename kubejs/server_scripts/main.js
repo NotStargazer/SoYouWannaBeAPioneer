@@ -6,17 +6,20 @@ RecipeViewerEvents.addEntries("item", (event) => {
 
 RecipeViewerEvents.removeEntries("item", (event) => {
   slagRemoveEMI(event);
+  farmersRemoveEMI(event);
 });
 
 ServerEvents.recipes((event) => {
   slagRecipes(event);
   overgearedRecipes(event);
   minecraftRecipes(event);
+  farmersRecipes(event);
 });
 
 
 ServerEvents.tags("item", (event) => {
   vibrantJournyItemTags(event);
+  tfmgItemTags(event);
 });
 
 ServerEvents.tags("block", (event) => {

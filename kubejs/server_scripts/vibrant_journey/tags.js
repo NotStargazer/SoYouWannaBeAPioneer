@@ -25,5 +25,6 @@ const vibrantJournyBlockTags = (event) => {
     "minecraft:short_grass",
     "minecraft:tall_grass",
     "projectvibrantjourneys:short_grass",
+    "projectvibrantjourneys:beach_grass"
   ]);
 };

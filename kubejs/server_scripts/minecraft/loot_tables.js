@@ -11,8 +11,7 @@ const minecraftLootTables = (event) => {
     event
       .getBlockTable(grass_block)
       .firstPool()
-      //TODO Replace straw with farmers delight straw
-      .addEntry("createaddition:straw")
+      .addEntry("farmersdelight:straw")
       .when((i) =>
         i.matchMainHand(
           ItemFilter.custom((item) => {

@@ -1,6 +1,5 @@
 // priority: 0
 import { $RecipesKubeEvent } from "@package/dev/latvian/mods/kubejs/recipe";
-import { event } from "@package/org/slf4j";
 
 const knapping_patterns = {
   pickaxe: [" x ", "x x"],

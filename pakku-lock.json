@@ -1754,6 +1754,67 @@
             ]
         },
         {
+            "pakku_id": "YOOZkCBTM8yaHtFw",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "farmers-delight",
+                "modrinth": "farmers-delight"
+            },
+            "name": {
+                "curseforge": "Farmer's Delight",
+                "modrinth": "Farmer's Delight"
+            },
+            "id": {
+                "curseforge": "398521",
+                "modrinth": "R2OftAxM"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FarmersDelight-1.21.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8083/481/FarmersDelight-1.21.1-1.3.2.jar",
+                    "id": "8083481",
+                    "parent_id": "398521",
+                    "hashes": {
+                        "sha1": "bf7e7dede99e832de20e191b1f6c11f7a9b9a622",
+                        "md5": "60186e1b39385ecae70ff2f194ef7c32"
+                    },
+                    "required_dependencies": [],
+                    "size": 3163042,
+                    "date_published": "2026-05-13T16:39:55.940Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "FarmersDelight-1.21.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar",
+                    "id": "GbNuOZ4S",
+                    "parent_id": "R2OftAxM",
+                    "hashes": {
+                        "sha512": "da5a4236427df8010d75992201c8723ac84a8fa71efa55670551d333cac94a90ae8e8c536da63ae07a67f4d00dc2774ae4151030f41d26886e508f4a037c8694",
+                        "sha1": "bf7e7dede99e832de20e191b1f6c11f7a9b9a622"
+                    },
+                    "required_dependencies": [],
+                    "size": 3163042,
+                    "date_published": "2026-05-13T16:42:12.357594Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Ulax2AxrAhjZmrSZ",
             "type": "MOD",
             "side": "BOTH",
@@ -3640,68 +3701,6 @@
                     ],
                     "size": 2814865,
                     "date_published": "2026-06-09T17:51:45.710718Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "YC9XpAae17D9lTgz",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "uniful",
-                "modrinth": "uniful"
-            },
-            "name": {
-                "curseforge": "Uniful",
-                "modrinth": "Uniful"
-            },
-            "id": {
-                "curseforge": "1302366",
-                "modrinth": "edns7lHB"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "unify-1.0a.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6771/148/unify-1.0a.jar",
-                    "id": "6771148",
-                    "parent_id": "1302366",
-                    "hashes": {
-                        "sha1": "d7dc0379c49cd881d671a8e2cb846052060f2226",
-                        "md5": "526e945813942670d3995cbfa72212b4"
-                    },
-                    "required_dependencies": [],
-                    "size": 562973,
-                    "date_published": "2025-07-15T09:34:44.880Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "unify-1.0a.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/edns7lHB/versions/t3AXHtxQ/unify-1.0a.jar",
-                    "id": "t3AXHtxQ",
-                    "parent_id": "edns7lHB",
-                    "hashes": {
-                        "sha512": "16d3ee261ce3433234d335c6946ef29e94eb7998e6f671281d2c1427b29b036f5ef0bb18098017ea90a772f6919ee1f8930832e0e6473ea97758915f6d150891",
-                        "sha1": "d7dc0379c49cd881d671a8e2cb846052060f2226"
-                    },
-                    "required_dependencies": [],
-                    "size": 562973,
-                    "date_published": "2025-07-15T09:35:16.158222Z"
                 }
             ]
         },
