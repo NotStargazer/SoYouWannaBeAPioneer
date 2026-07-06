@@ -35,6 +35,8 @@ ESM/
 generated/
 .pg-native/
 command_history.txt
+.mixin.out
+particular_cache/
 
 icon.png
 options.txt
