@@ -65,7 +65,6 @@ build/
 !/config/global_packs.toml
 !/config/sodium-mixins.properties
 !/config/naturaltemperature-common.toml
-!/config/biomespawnpoint
 !/config/structurecontrol-server.toml
 !/config/terralith.json
 !/config/dynamicwaters-common.toml
