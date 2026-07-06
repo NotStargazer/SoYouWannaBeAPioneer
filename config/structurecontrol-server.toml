@@ -189,4 +189,4 @@
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# HINT: Use the /locate structure command to determine the mod and structure names
-	generateModdedStructure = "example_mod:structure:0,other_example_mod:*:0,example_mod:struct*:0"
+	generateModdedStructure = "resourceful_refinement:*"

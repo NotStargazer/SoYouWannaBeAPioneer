@@ -35,6 +35,7 @@ ESM/
 generated/
 .pg-native/
 command_history.txt
+.mixin.out/
 
 icon.png
 options.txt
@@ -42,6 +43,7 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 emi.json
+.mixin.out/
 
 # Pakku
 build/
@@ -63,8 +65,9 @@ build/
 !/config/global_packs.toml
 !/config/sodium-mixins.properties
 !/config/naturaltemperature-common.toml
-!/config/biomespawnpoint
 !/config/structurecontrol-server.toml
+!/config/terralith.json
+!/config/dynamicwaters-common.toml
 
 # incontrol
 !/config/incontrol/

@@ -1,6 +1,6 @@
 {
     "name": "So You Want To Be A Pioneer?",
-    "version": "0.0.1",
+    "version": "=21.1.235",
     "overrides": [
         "config"
     ]
