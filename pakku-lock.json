@@ -2061,82 +2061,63 @@
             ]
         },
         {
-            "pakku_id": "i7jLxm2auSXh0kAz",
+            "pakku_id": "VH4xMbCoc2ew62rJ",
             "type": "MOD",
             "side": "SERVER",
             "slug": {
-                "curseforge": "lithosphere",
-                "modrinth": "lithosphere"
+                "curseforge": "lithostitched",
+                "modrinth": "lithostitched"
             },
             "name": {
-                "curseforge": "Lithosphere",
-                "modrinth": "Lithosphere"
+                "curseforge": "Lithostitched",
+                "modrinth": "Lithostitched"
             },
             "id": {
-                "curseforge": "995122",
-                "modrinth": "iv9jp2k9"
+                "curseforge": "936015",
+                "modrinth": "XaDC71GB"
             },
-            "redistributable": false,
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "lithosphere 1.6 17.06.2025 (1.20.5 - 1.21.5).jar",
+                    "file_name": "lithostitched-1.7.12-neoforge-21.1.jar",
                     "mc_versions": [
-                        "1.21",
-                        "1.21.5",
-                        "1.21.4",
-                        "1.21.3",
-                        "1.21.1",
-                        "1.21.2"
+                        "1.21.1"
                     ],
                     "loaders": [
-                        "fabric",
-                        "neoforge",
-                        "forge",
-                        "quilt"
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6670/767/lithosphere 1.6 17.06.2025 (1.20.5 - 1.21.5).jar",
-                    "id": "6670767",
-                    "parent_id": "995122",
+                    "url": "https://edge.forgecdn.net/files/8321/754/lithostitched-1.7.12-neoforge-21.1.jar",
+                    "id": "8321754",
+                    "parent_id": "936015",
                     "hashes": {
-                        "sha1": "320637e4777e721ab19524f6f15dcbb90c5a0dc3",
-                        "md5": "d9dd28f5ca52315d592e4bf46c89123c"
+                        "sha1": "a9eb610624bd782bba17647d293abcb0507e7b2d",
+                        "md5": "526088a5c3f35ef7bfa85ae196e19e1d"
                     },
                     "required_dependencies": [],
-                    "size": 582938,
-                    "date_published": "2025-06-19T11:47:03.050Z"
+                    "size": 852287,
+                    "date_published": "2026-06-26T03:12:41.753Z"
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "lithosphere-1.7.jar",
+                    "file_name": "lithostitched-1.7.12-neoforge-21.1.jar",
                     "mc_versions": [
-                        "1.20.5",
-                        "1.20.6",
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4",
-                        "1.21.5"
+                        "1.21.1"
                     ],
                     "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/iv9jp2k9/versions/wqHGyD4G/lithosphere-1.7.jar",
-                    "id": "wqHGyD4G",
-                    "parent_id": "iv9jp2k9",
+                    "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/vioNV2Gt/lithostitched-1.7.12-neoforge-21.1.jar",
+                    "id": "vioNV2Gt",
+                    "parent_id": "XaDC71GB",
                     "hashes": {
-                        "sha512": "d021f81f98bafdd696b9de02bbe165ce594b79966d9783e657ef30b9c508059e17fac3df74d14db340056cd6dfa1873d1ee7757c195b32312745c38cd90111d0",
-                        "sha1": "a77a7fb21336f7dc16de8ee51986de7ee1c7fc81"
+                        "sha512": "45f36f750cef63c53605038eabdae2c63de870350f5f017e9739300f3c644dd27e2ff8854879de97519745fa2a363e7a71e9a75f04291e92f6c3f67d308e1092",
+                        "sha1": "a9eb610624bd782bba17647d293abcb0507e7b2d"
                     },
                     "required_dependencies": [],
-                    "size": 527182,
-                    "date_published": "2025-08-15T16:28:38.043202Z"
+                    "size": 852287,
+                    "date_published": "2026-06-26T03:12:20.361306Z"
                 }
             ]
         },
@@ -3133,6 +3114,74 @@
                     "required_dependencies": [],
                     "size": 45617,
                     "date_published": "2025-12-27T12:41:12.626398Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6GsOxqxklK5Bxc2s",
+            "pakku_links": [
+                "VH4xMbCoc2ew62rJ"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "terralith",
+                "modrinth": "terralith"
+            },
+            "name": {
+                "curseforge": "Terralith",
+                "modrinth": "Terralith"
+            },
+            "id": {
+                "curseforge": "513688",
+                "modrinth": "8oi3bsk5"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Terralith_1.21.x_v2.6.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8222/737/Terralith_1.21.x_v2.6.2.jar",
+                    "id": "8222737",
+                    "parent_id": "513688",
+                    "hashes": {
+                        "sha1": "d4a9fe71b841f70edfb4b280f9bf5c58e4a28224",
+                        "md5": "d55b018bc4038a08d7a409800994aa63"
+                    },
+                    "required_dependencies": [
+                        "936015"
+                    ],
+                    "size": 2814865,
+                    "date_published": "2026-06-09T17:42:56.330Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Terralith_1.21.1_v2.6.2_Neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/IY93YaEe/Terralith_1.21.1_v2.6.2_Neoforge.jar",
+                    "id": "IY93YaEe",
+                    "parent_id": "8oi3bsk5",
+                    "hashes": {
+                        "sha512": "35298f1682567f63dc16658b04cee5498b30819f1c05f9712b4480d7f5eb17059db3b13ab14f81a05fe257149d11ced2cce2030d3727c1747edd8657c53e2a85",
+                        "sha1": "d4a9fe71b841f70edfb4b280f9bf5c58e4a28224"
+                    },
+                    "required_dependencies": [
+                        "XaDC71GB"
+                    ],
+                    "size": 2814865,
+                    "date_published": "2026-06-09T17:51:45.710718Z"
                 }
             ]
         },
