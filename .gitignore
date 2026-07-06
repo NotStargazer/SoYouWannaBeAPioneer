@@ -42,6 +42,7 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 emi.json
+.mixin.out/class/net/minecraft/client/gui/screens/worldselection/WorldOpenFlows.class
 
 # Pakku
 build/
@@ -65,3 +66,5 @@ build/
 !/config/naturaltemperature-common.toml
 !/config/biomespawnpoint
 !/config/structurecontrol-server.toml
+!/config/terralith.json
+!/config/dynamicwaters-common.toml
