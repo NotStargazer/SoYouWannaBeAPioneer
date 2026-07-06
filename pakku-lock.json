@@ -1394,6 +1394,67 @@
             ]
         },
         {
+            "pakku_id": "ni9jVAv4NjzQ3pzp",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "ears",
+                "modrinth": "ears"
+            },
+            "name": {
+                "curseforge": "Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)",
+                "modrinth": "Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)"
+            },
+            "id": {
+                "curseforge": "412013",
+                "modrinth": "mfzaZK3Z"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ears-neoforge-1.21-1.4.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6166/554/ears-neoforge-1.21-1.4.7.jar",
+                    "id": "6166554",
+                    "parent_id": "412013",
+                    "hashes": {
+                        "sha1": "d0a3ffe1cdfcf9dcd8d639fb929ffee1f7e140bf",
+                        "md5": "526b79e6b9158df49ab1474a4fe53c50"
+                    },
+                    "required_dependencies": [],
+                    "size": 162004,
+                    "date_published": "2025-02-07T04:59:22.633Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "ears-neoforge-1.21-1.4.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/mfzaZK3Z/versions/Dxc2NR3x/ears-neoforge-1.21-1.4.7.jar",
+                    "id": "Dxc2NR3x",
+                    "parent_id": "mfzaZK3Z",
+                    "hashes": {
+                        "sha512": "52fc315373bd014fd388c970c17bbd6873593e169841edb8d346bbf176401a527a65f074f1ddf28ebcb87cd5c469aadf64b3f99700f7112c1e0966b42920c7d8",
+                        "sha1": "d0a3ffe1cdfcf9dcd8d639fb929ffee1f7e140bf"
+                    },
+                    "required_dependencies": [],
+                    "size": 162004,
+                    "date_published": "2025-02-07T05:05:34.694847Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ZPiEjLGsJQE9owce",
             "type": "MOD",
             "side": "CLIENT",
