@@ -543,32 +543,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "Northstar-0.5.4+1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7476/517/Northstar-0.5.4+1.21.1.jar",
-                    "id": "7476517",
-                    "parent_id": "1318310",
-                    "hashes": {
-                        "sha1": "a0aca16a22ba035992481442f0e1559c87e161bf",
-                        "md5": "2b0400afa7028d718c4c45cf73e5fb63"
-                    },
-                    "required_dependencies": [
-                        "388172",
-                        "328085"
-                    ],
-                    "size": 14294746,
-                    "date_published": "2026-01-17T18:04:52.703Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "Northstar-0.5.4+1.21.1.jar",
+                    "file_name": "Northstar-0.6.2+1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -576,16 +552,43 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/UZiq3QVW/versions/3WY6clPk/Northstar-0.5.4+1.21.1.jar",
-                    "id": "3WY6clPk",
+                    "url": "https://cdn.modrinth.com/data/UZiq3QVW/versions/uJD9zeZc/Northstar-0.6.2+1.21.1.jar",
+                    "id": "uJD9zeZc",
                     "parent_id": "UZiq3QVW",
                     "hashes": {
-                        "sha512": "061481bdc2d5e54e4240f870e44c631248b9fec0914f64b51abd1da9255d237f3c2e153236928251cfbb2b99ca6f1aaefba581c8e02363b68c063e7ff90e2acc",
-                        "sha1": "a0aca16a22ba035992481442f0e1559c87e161bf"
+                        "sha512": "d28e8531aaa41d57b0ee89518428ffeaeaf0e3d32912436cce8856a26a01290754fd8e8338e8de312219154c42119729c14ebcbbd0a23861e279592841fcca4a",
+                        "sha1": "b9f1926c42be933c28cd9713c9106964e507b7e4"
                     },
-                    "required_dependencies": [],
-                    "size": 14294746,
-                    "date_published": "2026-01-17T17:56:10.124335Z"
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "8BmcQJ2H"
+                    ],
+                    "size": 11479511,
+                    "date_published": "2026-06-30T14:53:06.457159Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Northstar-0.6.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8307/391/Northstar-0.6.1+1.21.1.jar",
+                    "id": "8307391",
+                    "parent_id": "1318310",
+                    "hashes": {
+                        "sha1": "1f588a45611ad29a0434fff235e187d925374252",
+                        "md5": "ccb71c92a4c21ee44e90796dc8a034a1"
+                    },
+                    "required_dependencies": [
+                        "388172",
+                        "328085"
+                    ],
+                    "size": 11476656,
+                    "date_published": "2026-06-23T16:42:22.853Z"
                 }
             ]
         },
