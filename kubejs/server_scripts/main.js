@@ -8,6 +8,7 @@ RecipeViewerEvents.removeEntries("item", (event) => {
   slagRemoveEMI(event);
   farmersRemoveEMI(event);
   overgearedRemoveEMI(event);
+  vibrantJourneyRemoveEMI(event);
 });
 
 ServerEvents.recipes((event) => {
