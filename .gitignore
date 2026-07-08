@@ -44,6 +44,7 @@ usercache.json
 usernamecache.json
 emi.json
 .mixin.out/
+dynamic-resource-pack-cache/
 
 # Pakku
 build/
