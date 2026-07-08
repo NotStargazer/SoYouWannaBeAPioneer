@@ -1,0 +1,22 @@
+{
+  "actions": [
+    "knife",
+    "isTool"
+  ],
+  "final_segment_stacks": [
+    {
+      "count": 1,
+      "id": "minecraft:stick"
+    }
+  ],
+  "id": "slag:knife",
+  "item_tags": [
+    "c:tools/knife",
+    "c:tools/melee_weapon"
+  ],
+  "model_type": "handheld",
+  "segments": [
+    "slag:parts/knife_heads"
+  ],
+  "sort_order": 2
+}

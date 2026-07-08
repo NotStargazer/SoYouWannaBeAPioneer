@@ -72,6 +72,43 @@
             ]
         },
         {
+            "pakku_id": "ErZAqTS2FOXfFpDA",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "better-harvest-level"
+            },
+            "name": {
+                "modrinth": "Better Harvest Level"
+            },
+            "id": {
+                "modrinth": "z9ZHPD94"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "betterharvestlevel-neoforge-1.21.1-1.1.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/z9ZHPD94/versions/Tt8tSnXR/betterharvestlevel-neoforge-1.21.1-1.1.0.jar",
+                    "id": "Tt8tSnXR",
+                    "parent_id": "z9ZHPD94",
+                    "hashes": {
+                        "sha512": "fcd18867dedda811d2f8e2cfff153a7c8535c40d93ff87ad36107bd3b2715bfcf03f22711eef7cccbf22041fdcbb634838929b4af7487b62c049cf9a026cdafc",
+                        "sha1": "50cbaeff7256e98ac87c11a8dd9b31b98ca165c1"
+                    },
+                    "required_dependencies": [],
+                    "size": 52012,
+                    "date_published": "2026-06-12T18:30:51.095523Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qC1765ccPLFPvv24",
             "type": "MOD",
             "side": "CLIENT",
@@ -450,6 +487,74 @@
                     ],
                     "size": 523065,
                     "date_published": "2025-11-16T00:22:09.699707Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QMKFyvS4j4yeIyy4",
+            "pakku_links": [
+                "JyBSCLAVojTeqHyC"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-metallurgy",
+                "modrinth": "create-metallurgy"
+            },
+            "name": {
+                "curseforge": "Create: Metallurgy",
+                "modrinth": "Create: Metallurgy"
+            },
+            "id": {
+                "curseforge": "1007404",
+                "modrinth": "Soft45xC"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createmetallurgy-1.0.3-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8128/243/createmetallurgy-1.0.3-1.21.1.jar",
+                    "id": "8128243",
+                    "parent_id": "1007404",
+                    "hashes": {
+                        "sha1": "ece75dfa1eb907bce3ace729c0144df0b2451673",
+                        "md5": "2d0e18f5ae16a7b9154fb4bae25c1064"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 2035560,
+                    "date_published": "2026-05-22T16:10:37.460Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "createmetallurgy-1.0.3-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Soft45xC/versions/4RhIMmaJ/createmetallurgy-1.0.3-1.21.1.jar",
+                    "id": "4RhIMmaJ",
+                    "parent_id": "Soft45xC",
+                    "hashes": {
+                        "sha512": "e052bddbeb39b68c1482cfe2ebf9919db17d40d71e9f46f96375d82ec876dc0abb4e15b2c14cd1a9e7636d7f80166b2ec336507df7fcc452fd871cc4873ef881",
+                        "sha1": "ece75dfa1eb907bce3ace729c0144df0b2451673"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 2035560,
+                    "date_published": "2026-05-22T16:05:17.250175Z"
                 }
             ]
         },
@@ -1649,6 +1754,67 @@
             ]
         },
         {
+            "pakku_id": "YOOZkCBTM8yaHtFw",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "farmers-delight",
+                "modrinth": "farmers-delight"
+            },
+            "name": {
+                "curseforge": "Farmer's Delight",
+                "modrinth": "Farmer's Delight"
+            },
+            "id": {
+                "curseforge": "398521",
+                "modrinth": "R2OftAxM"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FarmersDelight-1.21.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8083/481/FarmersDelight-1.21.1-1.3.2.jar",
+                    "id": "8083481",
+                    "parent_id": "398521",
+                    "hashes": {
+                        "sha1": "bf7e7dede99e832de20e191b1f6c11f7a9b9a622",
+                        "md5": "60186e1b39385ecae70ff2f194ef7c32"
+                    },
+                    "required_dependencies": [],
+                    "size": 3163042,
+                    "date_published": "2026-05-13T16:39:55.940Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "FarmersDelight-1.21.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar",
+                    "id": "GbNuOZ4S",
+                    "parent_id": "R2OftAxM",
+                    "hashes": {
+                        "sha512": "da5a4236427df8010d75992201c8723ac84a8fa71efa55670551d333cac94a90ae8e8c536da63ae07a67f4d00dc2774ae4151030f41d26886e508f4a037c8694",
+                        "sha1": "bf7e7dede99e832de20e191b1f6c11f7a9b9a622"
+                    },
+                    "required_dependencies": [],
+                    "size": 3163042,
+                    "date_published": "2026-05-13T16:42:12.357594Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Ulax2AxrAhjZmrSZ",
             "type": "MOD",
             "side": "BOTH",
@@ -2318,6 +2484,74 @@
             ]
         },
         {
+            "pakku_id": "boiqvk9kmJPEezki",
+            "pakku_links": [
+                "ExwLxTqo1zpPQHpW"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "lootjs",
+                "modrinth": "lootjs"
+            },
+            "name": {
+                "curseforge": "LootJS: KubeJS Addon",
+                "modrinth": "LootJS: KubeJS Addon"
+            },
+            "id": {
+                "curseforge": "570630",
+                "modrinth": "fJFETWDN"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lootjs-neoforge-1.21.1-3.7.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8009/262/lootjs-neoforge-1.21.1-3.7.0.jar",
+                    "id": "8009262",
+                    "parent_id": "570630",
+                    "hashes": {
+                        "sha1": "54ffddd1763ae4af84e9bbcb22e4081a1e7f3556",
+                        "md5": "21d3eda21b53344dd1f34759b4428634"
+                    },
+                    "required_dependencies": [
+                        "238086"
+                    ],
+                    "size": 247689,
+                    "date_published": "2026-04-29T10:52:53.330Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "lootjs-neoforge-1.21.1-3.7.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fJFETWDN/versions/5AZDyUSn/lootjs-neoforge-1.21.1-3.7.0.jar",
+                    "id": "5AZDyUSn",
+                    "parent_id": "fJFETWDN",
+                    "hashes": {
+                        "sha512": "fab507e70197e74ffba43bd400066f55ef58c2f91cb213efedf4acd2a2ad7876d9de905f02788a0b6831304c2177fdc9996c435bcf855eabdb4daca7581270bc",
+                        "sha1": "54ffddd1763ae4af84e9bbcb22e4081a1e7f3556"
+                    },
+                    "required_dependencies": [
+                        "umyGl7zF"
+                    ],
+                    "size": 247689,
+                    "date_published": "2026-04-29T10:52:57.565816Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "U1olJPWU52mX65y2",
             "type": "MOD",
             "side": "BOTH",
@@ -2756,6 +2990,67 @@
             ]
         },
         {
+            "pakku_id": "mYIpUuaDjmIhxAtV",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "overgeared",
+                "modrinth": "overgeared"
+            },
+            "name": {
+                "curseforge": "Overgeared",
+                "modrinth": "Overgeared"
+            },
+            "id": {
+                "curseforge": "1277786",
+                "modrinth": "SQL3X2Ky"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "overgeared-1.21.1-1.6.16.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8298/434/overgeared-1.21.1-1.6.16.jar",
+                    "id": "8298434",
+                    "parent_id": "1277786",
+                    "hashes": {
+                        "sha1": "130e2974d57bfeb550334679a226e60a87b85ad1",
+                        "md5": "a27b647eb4f7356c88c424e9ca887232"
+                    },
+                    "required_dependencies": [],
+                    "size": 1454390,
+                    "date_published": "2026-06-22T06:00:07.317Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "overgeared-1.21.1-1.6.16.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SQL3X2Ky/versions/otsHkv1p/overgeared-1.21.1-1.6.16.jar",
+                    "id": "otsHkv1p",
+                    "parent_id": "SQL3X2Ky",
+                    "hashes": {
+                        "sha512": "3fa45c11c7aeae5c5c4afe8520b51f21d1c242471b9187c0a355abc1db162d7bd00d73ba9f356885168498eb41abed784e0fc3ffed93e9ab295d7fd7144ced0a",
+                        "sha1": "130e2974d57bfeb550334679a226e60a87b85ad1"
+                    },
+                    "required_dependencies": [],
+                    "size": 1454390,
+                    "date_published": "2026-06-22T06:00:59.334995Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "7FRpVwqz6ilxH5Bg",
             "type": "MOD",
             "side": "BOTH",
@@ -3086,7 +3381,7 @@
             ]
         },
         {
-            "pakku_id": "dqBo6TzGaeOq5Agf",
+            "pakku_id": "PVvmPGsacnVQuV1p",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -3144,6 +3439,34 @@
                     "required_dependencies": [],
                     "size": 3764994,
                     "date_published": "2026-03-20T22:21:49.542746Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "puhjnshYVckgKQ57",
+            "type": "MOD",
+            "slug": {
+                "github": "NotStargazer/Slag-Data-Compat"
+            },
+            "name": {
+                "github": "Slag-Data-Compat"
+            },
+            "id": {
+                "github": "1275513126"
+            },
+            "files": [
+                {
+                    "type": "github",
+                    "file_name": "slagcompat-1.1.jar",
+                    "release_type": "release",
+                    "url": "https://github.com/NotStargazer/Slag-Data-Compat/releases/download/v1.1/slagcompat-1.1.jar",
+                    "id": "455076104",
+                    "parent_id": "1275513126",
+                    "hashes": {
+                        "sha256": "9c4be7415d47b27d4c337c85e475aeed4d379af983d65468a4c880bb042e1074"
+                    },
+                    "size": 10496,
+                    "date_published": "2026-06-22T23:10:50Z"
                 }
             ]
         },
@@ -3378,68 +3701,6 @@
                     ],
                     "size": 2814865,
                     "date_published": "2026-06-09T17:51:45.710718Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "YC9XpAae17D9lTgz",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "uniful",
-                "modrinth": "uniful"
-            },
-            "name": {
-                "curseforge": "Uniful",
-                "modrinth": "Uniful"
-            },
-            "id": {
-                "curseforge": "1302366",
-                "modrinth": "edns7lHB"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "unify-1.0a.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6771/148/unify-1.0a.jar",
-                    "id": "6771148",
-                    "parent_id": "1302366",
-                    "hashes": {
-                        "sha1": "d7dc0379c49cd881d671a8e2cb846052060f2226",
-                        "md5": "526e945813942670d3995cbfa72212b4"
-                    },
-                    "required_dependencies": [],
-                    "size": 562973,
-                    "date_published": "2025-07-15T09:34:44.880Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "unify-1.0a.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/edns7lHB/versions/t3AXHtxQ/unify-1.0a.jar",
-                    "id": "t3AXHtxQ",
-                    "parent_id": "edns7lHB",
-                    "hashes": {
-                        "sha512": "16d3ee261ce3433234d335c6946ef29e94eb7998e6f671281d2c1427b29b036f5ef0bb18098017ea90a772f6919ee1f8930832e0e6473ea97758915f6d150891",
-                        "sha1": "d7dc0379c49cd881d671a8e2cb846052060f2226"
-                    },
-                    "required_dependencies": [],
-                    "size": 562973,
-                    "date_published": "2025-07-15T09:35:16.158222Z"
                 }
             ]
         },

@@ -1,0 +1,16 @@
+{
+  "defense": 2.0,
+  "durability": 140.0,
+  "enchantability": 5.0,
+  "id": "slag:stone",
+  "knockback_resistance": 0.1,
+  "repair_ingredient": {
+    "tag": "minecraft:stone_tool_materials"
+  },
+  "sharpness": 4.0,
+  "sort_order": 20,
+  "speed": 2.0,
+  "texture": "soft",
+  "tier": 1.0,
+  "toughness": 1.0
+}

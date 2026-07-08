@@ -1,0 +1,45 @@
+{
+  "configVersion": 1,
+  "tiers": [
+    {
+      "name": "basic",
+      "level": 0,
+      "displayName": "Basic",
+      "color": "#888888",
+      "builtIn": true,
+      "iconItem": "minecraft:stone_pickaxe"
+    },
+    {
+      "name": "weak",
+      "level": 1,
+      "displayName": "Weak Metal",
+      "color": "#FFAA00",
+      "builtIn": true,
+      "iconItem": "minecraft:golden_pickaxe"
+    },
+    {
+      "name": "iron",
+      "level": 2,
+      "displayName": "Iron",
+      "color": "#C8C8C8",
+      "builtIn": true,
+      "iconItem": "minecraft:iron_pickaxe"
+    },
+    {
+      "name": "diamond",
+      "level": 3,
+      "displayName": "Diamond",
+      "color": "#55FFFF",
+      "builtIn": true,
+      "iconItem": "minecraft:diamond_pickaxe"
+    },
+    {
+      "name": "netherite",
+      "level": 4,
+      "displayName": "Netherite",
+      "color": "#4D3B3B",
+      "builtIn": true,
+      "iconItem": "minecraft:netherite_pickaxe"
+    }
+  ]
+}
