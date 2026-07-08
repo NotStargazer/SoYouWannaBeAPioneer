@@ -7,6 +7,7 @@ RecipeViewerEvents.addEntries("item", (event) => {
 RecipeViewerEvents.removeEntries("item", (event) => {
   slagRemoveEMI(event);
   farmersRemoveEMI(event);
+  overgearedRemoveEMI(event);
 });
 
 ServerEvents.recipes((event) => {
@@ -16,16 +17,16 @@ ServerEvents.recipes((event) => {
   farmersRecipes(event);
 });
 
-
 ServerEvents.tags("item", (event) => {
-  vibrantJournyItemTags(event);
+  vibrantJourneyItemTags(event);
+  overgearedItemTags(event);
   tfmgItemTags(event);
 });
 
 ServerEvents.tags("block", (event) => {
-  vibrantJournyBlockTags(event);
+  vibrantJourneyBlockTags(event);
 });
 
-LootJS.lootTables(event => {
+LootJS.lootTables((event) => {
   minecraftLootTables(event);
-})
+});

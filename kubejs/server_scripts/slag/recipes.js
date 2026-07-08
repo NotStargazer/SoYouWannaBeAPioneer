@@ -15,11 +15,6 @@ const slagRecipes = (event) => {
   event.remove({ output: "#minecraft:swords" });
   event.remove({ output: "#c:knifes" });
 
-  event.shapeless(slagUtil.getPart(slagUtil.material.flint, slagUtil.tool_part.knife), [
-    "minecraft:flint",
-    `#${global.pack.name}:rocks`,
-  ]);
-
   createToolRecipes(event, slagUtil.material.stone);
   createToolRecipes(event, slagUtil.material.flint);
 };

@@ -7,7 +7,7 @@ import { TagEvent } from "@side-only/server/events";
  *
  * @param {TagEvent<$Item>} event
  */
-const vibrantJournyItemTags = (event) => {
+const vibrantJourneyItemTags = (event) => {
   event.add(`${global.pack.name}:rocks`, [
     "projectvibrantjourneys:rocks",
     "projectvibrantjourneys:mossy_rocks",
@@ -20,7 +20,7 @@ const vibrantJournyItemTags = (event) => {
  *
  * @param {TagEvent<$Block>} event
  */
-const vibrantJournyBlockTags = (event) => {
+const vibrantJourneyBlockTags = (event) => {
   event.add(`${global.pack.name}:drops_straw`, [
     "minecraft:short_grass",
     "minecraft:tall_grass",

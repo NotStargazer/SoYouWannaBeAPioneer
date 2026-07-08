@@ -16,8 +16,8 @@ const knapping_patterns = {
  * @param {$RecipesKubeEvent} event
  */
 const overgearedRecipes = (event) => {
-    createPartRecipes(event, slagUtil.material.stone, `#${global.pack.name}:rocks`);
-    createPartRecipes(event, slagUtil.material.flint, `minecraft:flint`);
+  createPartRecipes(event, slagUtil.material.stone, `#${global.pack.name}:rocks`);
+  createPartRecipes(event, slagUtil.material.flint, `minecraft:flint`);
 };
 
 /**
@@ -27,11 +27,7 @@ const overgearedRecipes = (event) => {
 const createPartRecipes = (event, material, ingredient) => {
   Object.entries(knapping_patterns).forEach(([key, pattern]) => {
     event.custom(
-      overgearedUtil.knappingRecipe(
-        Item.of(slagUtil.getPart(material, slagUtil.tool_part[key])),
-        ingredient,
-        pattern,
-      ),
+      overgearedUtil.knappingRecipe(Item.of(slagUtil.getPart(material, slagUtil.tool_part[key])), ingredient, pattern),
     );
   });
 };
