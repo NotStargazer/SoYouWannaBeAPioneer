@@ -16,6 +16,8 @@ const knapping_patterns = {
  * @param {$RecipesKubeEvent} event
  */
 const overgearedRecipes = (event) => {
+  event.remove({ input: "overgeared:knappable_rock" });
+
   createPartRecipes(event, slagUtil.material.stone, `#${global.pack.name}:rocks`);
   createPartRecipes(event, slagUtil.material.flint, `minecraft:flint`);
 };
