@@ -63,13 +63,14 @@ build/
 # configs, add exceptions below
 /config/*
 !/config/global_packs.toml
-!/config/sodium-mixins.properties
 !/config/naturaltemperature-common.toml
 !/config/structurecontrol-server.toml
 !/config/terralith.json
 !/config/dynamicwaters-common.toml
+!/config/betterharvestlevel
 
 # incontrol
 !/config/incontrol/
 /config/incontrol/*
 !/config/incontrol/spawn.json
+

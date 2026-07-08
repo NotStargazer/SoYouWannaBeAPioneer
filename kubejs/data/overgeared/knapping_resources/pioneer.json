@@ -1,0 +1,14 @@
+{
+  "knapping": [
+    {
+      "tag": "pioneer:rocks",
+      "texture": "minecraft:textures/block/cobblestone.png",
+      "sound": "minecraft:block.stone.break"
+    },
+    {
+      "item": "minecraft:flint",
+      "texture": "pioneer:textures/block/flint.png",
+      "sound": "minecraft:block.decorated_pot.break"
+    }
+  ]
+}

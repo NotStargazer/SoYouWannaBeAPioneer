@@ -1,4 +1,4 @@
-global.pack.items = defineNames(["example_item"]);
+global.pack.items = defineNames(["straw_binding"]);
 
 /**
  * @type {import('../types').defineNames}

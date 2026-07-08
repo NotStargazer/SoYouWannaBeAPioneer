@@ -4,3 +4,5 @@ export function defineNames<T extends string>(
 ): {
   [key in T]: `${PackName}:${key}`;
 };
+
+

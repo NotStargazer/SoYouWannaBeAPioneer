@@ -1,0 +1,15 @@
+{
+  "defense": 2.0,
+  "durability": 110.0,
+  "enchantability": 5.0,
+  "id": "slag:flint",
+  "repair_ingredient": {
+    "item": "minecraft:flint"
+  },
+  "sharpness": 5.0,
+  "sort_order": 230,
+  "speed": 3.0,
+  "texture": "metal",
+  "tier": 1.0,
+  "toughness": 1.0
+}
