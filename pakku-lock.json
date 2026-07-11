@@ -9,6 +9,67 @@
     },
     "projects": [
         {
+            "pakku_id": "SDeKPs6zFpnt4JRP",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "almostunified",
+                "modrinth": "almostunified"
+            },
+            "name": {
+                "curseforge": "Almost Unified",
+                "modrinth": "Almost Unified"
+            },
+            "id": {
+                "curseforge": "633823",
+                "modrinth": "sdaSaQEz"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "almostunified-neoforge-1.21.1-1.4.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8127/603/almostunified-neoforge-1.21.1-1.4.2.jar",
+                    "id": "8127603",
+                    "parent_id": "633823",
+                    "hashes": {
+                        "sha1": "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3",
+                        "md5": "3d34b71179a4fe0559a9a7f8770ee0cc"
+                    },
+                    "required_dependencies": [],
+                    "size": 295093,
+                    "date_published": "2026-05-22T13:21:53.797Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "almostunified-neoforge-1.21.1-1.4.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sdaSaQEz/versions/e8iYxxI3/almostunified-neoforge-1.21.1-1.4.2.jar",
+                    "id": "e8iYxxI3",
+                    "parent_id": "sdaSaQEz",
+                    "hashes": {
+                        "sha512": "82ddfb82b86dcbf62c729ebbb2ed571bf284d31a8ad494b7e10db2da24a87e7887969e6092b78e79053ea0279c75de58dc548d30eca6ba60c2816a9bd3e436fd",
+                        "sha1": "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3"
+                    },
+                    "required_dependencies": [],
+                    "size": 295093,
+                    "date_published": "2026-05-22T13:21:55.264117Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QJg5jZJeqVXopgAv",
             "type": "MOD",
             "side": "BOTH",
@@ -487,6 +548,77 @@
                     ],
                     "size": 523065,
                     "date_published": "2025-11-16T00:22:09.699707Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "HkuMRXQC9UvydMVb",
+            "pakku_links": [
+                "U1olJPWU52mX65y2",
+                "JyBSCLAVojTeqHyC"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-sifting",
+                "modrinth": "create-sifting"
+            },
+            "name": {
+                "curseforge": "Create Sifting",
+                "modrinth": "Create Sifting"
+            },
+            "id": {
+                "curseforge": "661938",
+                "modrinth": "r018adCw"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createsifter-1.21.1-2.2.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8292/844/createsifter-1.21.1-2.2.2.jar",
+                    "id": "8292844",
+                    "parent_id": "661938",
+                    "hashes": {
+                        "sha1": "a33acd8815fd4cdaf93ce5e1443d8e32b6dec86b",
+                        "md5": "e1a1960a80f07a55e296b651cdbf63c7"
+                    },
+                    "required_dependencies": [
+                        "1253573",
+                        "328085"
+                    ],
+                    "size": 709759,
+                    "date_published": "2026-06-21T12:03:00.877Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "createsifter-1.21.1-2.2.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/r018adCw/versions/Api0vjcP/createsifter-1.21.1-2.2.2.jar",
+                    "id": "Api0vjcP",
+                    "parent_id": "r018adCw",
+                    "hashes": {
+                        "sha512": "4d5cab0c48d53ba7a3f862fcd7cc8849c0c885fdba116c30326233bca5543964e71b3fdf82f2c5c721875c57698b0cfff9b5f87346385f844e00c6a0cff4a2b0",
+                        "sha1": "a33acd8815fd4cdaf93ce5e1443d8e32b6dec86b"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "ProvjTA7"
+                    ],
+                    "size": 709759,
+                    "date_published": "2026-06-21T12:03:01.707542Z"
                 }
             ]
         },
@@ -2569,29 +2701,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "mechanicals-1.21.1-1.1.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7226/648/mechanicals-1.21.1-1.1.0.jar",
-                    "id": "7226648",
-                    "parent_id": "1253573",
-                    "hashes": {
-                        "sha1": "9fcb171d9191d7c2a76502eccb295520787c9e81",
-                        "md5": "d990166ec95a7e7549da615acac6d871"
-                    },
-                    "required_dependencies": [],
-                    "size": 507824,
-                    "date_published": "2025-11-15T23:16:42.687Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "mechanicals-1.21.1-1.1.0.jar",
+                    "file_name": "mechanicals-1.21.1-1.1.4.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2599,16 +2710,37 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/ProvjTA7/versions/z9HvpJMU/mechanicals-1.21.1-1.1.0.jar",
-                    "id": "z9HvpJMU",
+                    "url": "https://cdn.modrinth.com/data/ProvjTA7/versions/wEAqPnoN/mechanicals-1.21.1-1.1.4.jar",
+                    "id": "wEAqPnoN",
                     "parent_id": "ProvjTA7",
                     "hashes": {
-                        "sha512": "6638860a9273ff656095a5c7de0c029ae2eb48928fcabe7b0f240e74d9bfa28d9c8da04f08cefdbe3feba682efbd46f887a80474b54c2d698f643db9f4477807",
-                        "sha1": "9fcb171d9191d7c2a76502eccb295520787c9e81"
+                        "sha512": "be7f33864ff4bab574b0648b4e92471e34de2d01df68b0bdd9134a4271b3e5bb554eedc4a19060b0ef2576c7a71fe453197db00dc24a19d5c1c4f330eeb29a2b",
+                        "sha1": "51fb95f943db9382f7aa9a0a35ce4f79c5d578fa"
                     },
                     "required_dependencies": [],
-                    "size": 507824,
-                    "date_published": "2025-11-15T23:16:43.020856Z"
+                    "size": 2007954,
+                    "date_published": "2026-06-21T11:34:15.205499Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "mechanicals-1.21.1-1.1.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8292/737/mechanicals-1.21.1-1.1.4.jar",
+                    "id": "8292737",
+                    "parent_id": "1253573",
+                    "hashes": {
+                        "sha1": "51fb95f943db9382f7aa9a0a35ce4f79c5d578fa",
+                        "md5": "0299c9378f0627f83e70eb1c6d72bb2f"
+                    },
+                    "required_dependencies": [],
+                    "size": 2007954,
+                    "date_published": "2026-06-21T11:34:14.613Z"
                 }
             ]
         },
@@ -3701,6 +3833,74 @@
                     ],
                     "size": 2814865,
                     "date_published": "2026-06-09T17:51:45.710718Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ALJz0KaFnHqQ9ZdD",
+            "pakku_links": [
+                "ExwLxTqo1zpPQHpW"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "worldjs",
+                "modrinth": "worldjs"
+            },
+            "name": {
+                "curseforge": "WorldJS",
+                "modrinth": "WorldJS"
+            },
+            "id": {
+                "curseforge": "997691",
+                "modrinth": "3Y7FeCuI"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "worldjs-1.21.1-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8165/432/worldjs-1.21.1-1.0.0.jar",
+                    "id": "8165432",
+                    "parent_id": "997691",
+                    "hashes": {
+                        "sha1": "de24dbeb14c586877d31ed04fa4e38a34d328092",
+                        "md5": "73cbd4f20d6bf23fd774468d555db1a4"
+                    },
+                    "required_dependencies": [
+                        "238086"
+                    ],
+                    "size": 160345,
+                    "date_published": "2026-05-29T17:33:41.240Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "worldjs-1.21.1-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/3Y7FeCuI/versions/y1b8XpvV/worldjs-1.21.1-1.0.0.jar",
+                    "id": "y1b8XpvV",
+                    "parent_id": "3Y7FeCuI",
+                    "hashes": {
+                        "sha512": "6a7fcab852ff636f7b956a5128b23c872dceb6e0bbe0fb453bd87aba1537fc89531fe0c562eb8aacaa8a1bcf2c99d4befabcd832fdf2c311238ef4b848b7bc02",
+                        "sha1": "de24dbeb14c586877d31ed04fa4e38a34d328092"
+                    },
+                    "required_dependencies": [
+                        "umyGl7zF"
+                    ],
+                    "size": 160345,
+                    "date_published": "2026-05-29T17:33:33.185084Z"
                 }
             ]
         },
