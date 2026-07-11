@@ -1,6 +1,21 @@
 global.pack.items = defineNames(["straw_binding"]);
 
 /**
+ * @type {import('../types').Metal[]}
+ */
+global.pack.metals = [
+  {
+    name: "tin",
+  },
+  {
+    name: "steel",
+    items: {
+      rod: true,
+    },
+  },
+];
+
+/**
  * @type {import('../types').defineNames}
  */
 function defineNames(names) {
