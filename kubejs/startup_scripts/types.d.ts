@@ -4,8 +4,12 @@ export function defineNames<T extends string>(
 ): {
   [key in T]: `${PackName}:${key}`;
 };
+
+export type ToolTier = "wooden" | "stone" | "copper" | "iron";
+
 export interface Metal {
   name: string;
+  requireTier: ToolTier;
   items?: {
     ingot?: boolean;
     nugget?: boolean;
@@ -17,5 +21,9 @@ export interface Metal {
     dirtyDust?: boolean;
     raw?: boolean;
     crushed?: boolean;
+  };
+  blocks?: {
+    metal: boolean;
+    raw: boolean;
   };
 }

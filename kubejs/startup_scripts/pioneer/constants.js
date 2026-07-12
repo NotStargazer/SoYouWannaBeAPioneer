@@ -4,14 +4,14 @@ global.pack.items = defineNames(["straw_binding"]);
  * @type {import('../types').Metal[]}
  */
 global.pack.metals = [
-  {
-    name: "tin",
-  },
+  { name: "tin", requireTier: "stone" },
   {
     name: "steel",
+    requireTier: "iron",
     items: {
       rod: true,
     },
+    blocks: {},
   },
 ];
 

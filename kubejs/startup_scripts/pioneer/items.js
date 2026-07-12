@@ -13,8 +13,7 @@ const registerModPackItems = (event) => {
    *
    * @param {import('../types').Metal} material
    */
-  const addMetal = (material) => {
-    //items
+  const addMetalItems = (material) => {
     const items = {
       ingot: { suffix: "ingot" },
       nugget: { suffix: "nugget" },
@@ -43,5 +42,5 @@ const registerModPackItems = (event) => {
     }
   };
 
-  global.pack.metals.forEach(addMetal);
+  global.pack.metals.forEach(addMetalItems);
 };
