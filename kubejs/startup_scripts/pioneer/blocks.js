@@ -16,6 +16,13 @@ const registerModPackBlocks = (event) => {
    * @returns {number}
    */
   const getHardnessFromTier = (tier) => ({ stone: 3, copper: 5, iron: 8 })[tier] ?? 1;
+
+  /**
+   *
+   * @param {"stone" | "deepslate"} stoneType
+   * @returns {number}
+   */
+  const getHardnessFromStoneType = (stoneType) => ({ stone: 3, deepslate: 4.5 })[stoneType] ?? 3;
   /**
    *
    * @param {import('../types').Metal} material
@@ -47,4 +54,18 @@ const registerModPackBlocks = (event) => {
   };
 
   global.pack.metals.forEach(addMetalBlocks);
+
+  const createOre = (settings) => {
+    const id = settings.id ?? `${settings.stoneType}_${settings.material}_ore`;
+    return event
+      .create(`${global.pack.name}:${id}`)
+      .tagBlock([`c:ores`, `c:ores/${settings.material}`])
+      .tagBlock([`c:ores_in_ground/${settings.stoneType}`])
+      .tagBlock(["minecraft:mineable/pickaxe", `minecraft:needs_${settings.toolTier}_tool`])
+      .hardness(getHardnessFromStoneType(settings.material))
+      .requiresTool();
+  };
+
+  // Drops need to be added manually with lootjs i think
+  createOre({ material: "tin", stoneType: "stone", toolTier: "stone" });
 };
