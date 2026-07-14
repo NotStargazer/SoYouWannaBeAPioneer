@@ -1,0 +1,33 @@
+[
+  {
+    "mob": "minecraft:witch",
+    "biometags": "minecraft:has_structure/swamp_hut",
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:zombie_villager",
+      "minecraft:skeleton",
+      "minecraft:creeper",
+      "minecraft:enderman",
+      "minecraft:spider",
+      "minecraft:witch"
+    ],
+    "minlight_sky": 1,
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:zombie_villager",
+      "minecraft:skeleton",
+      "minecraft:creeper",
+      "minecraft:enderman",
+      "minecraft:spider",
+      "minecraft:witch"
+    ],
+    "minheight": 63,
+    "result": "deny"
+  }
+]

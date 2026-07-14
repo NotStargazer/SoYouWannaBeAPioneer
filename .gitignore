@@ -69,3 +69,9 @@ build/
 !/config/dynamicwaters-common.toml
 !/config/betterharvestlevel
 !/config/projectvibrantjourneys-common.toml
+
+# incontrol
+!/config/incontrol/
+/config/incontrol/*
+!/config/incontrol/spawn.json
+
