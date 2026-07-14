@@ -3661,6 +3661,69 @@
             ]
         },
         {
+            "pakku_id": "kyC4ko6ok5X24YL4",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "spice-of-life-valheim-reforged",
+                "modrinth": "spice-of-life-valheim-reforged"
+            },
+            "name": {
+                "curseforge": "Spice of Life: Valheim Reforged",
+                "modrinth": "Spice of Life: Valheim Reforged"
+            },
+            "id": {
+                "curseforge": "1257571",
+                "modrinth": "TYHpvAhl"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sol_valheim_reforged-1.1.6-neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8342/967/sol_valheim_reforged-1.1.6-neoforge-1.21.1.jar",
+                    "id": "8342967",
+                    "parent_id": "1257571",
+                    "hashes": {
+                        "sha1": "d975f20e4cb5c9e33ecb03fc6d90eb938aca4d55",
+                        "md5": "d9c5ac52c10bd4b34ebe8c1c1f6e453a"
+                    },
+                    "required_dependencies": [],
+                    "size": 486919,
+                    "date_published": "2026-06-29T21:17:08.497Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "sol_valheim_reforged-1.1.6-neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/TYHpvAhl/versions/iq1m7nLV/sol_valheim_reforged-1.1.6-neoforge-1.21.1.jar",
+                    "id": "iq1m7nLV",
+                    "parent_id": "TYHpvAhl",
+                    "hashes": {
+                        "sha512": "bd12f11ad4bf8246b5de18b3dd9c9bab799d466bcedbf7a22bf5e7b55b30068223f47e50df2c5e1d5709cf7013abc78f7d1e4c55e45697d82de9dbc9c596fdff",
+                        "sha1": "d975f20e4cb5c9e33ecb03fc6d90eb938aca4d55"
+                    },
+                    "required_dependencies": [],
+                    "size": 486919,
+                    "date_published": "2026-06-29T21:18:26.721647Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "IlMI6CelOi84IxdQ",
             "type": "MOD",
             "side": "BOTH",

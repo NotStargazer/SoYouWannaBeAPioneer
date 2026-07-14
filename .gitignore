@@ -68,6 +68,7 @@ build/
 !/config/terralith.json
 !/config/dynamicwaters-common.toml
 !/config/betterharvestlevel
+!/config/projectvibrantjourneys-common.toml
 
 # incontrol
 !/config/incontrol/
