@@ -2118,6 +2118,51 @@
             ]
         },
         {
+            "pakku_id": "jarSWSacybggJUPj",
+            "pakku_links": [
+                "2Mo6A7R0a5mNDd7H"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "grounded",
+                "modrinth": "grounded"
+            },
+            "name": {
+                "curseforge": "Grounded",
+                "modrinth": "Grounded"
+            },
+            "id": {
+                "curseforge": "1140983",
+                "modrinth": "65WUS6p6"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "grounded-neoforge-1.21.1-0.2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/65WUS6p6/versions/rMOW6kM5/grounded-neoforge-1.21.1-0.2.0.jar",
+                    "id": "rMOW6kM5",
+                    "parent_id": "65WUS6p6",
+                    "hashes": {
+                        "sha512": "5f2b4389826ee4d2a3a83478c886338666ca321e18f66a0e7c22a04906714907684ffe5f4f8173217e7fdd33104ddd6e7e4c4d193eec52a0c63da438a4d558fa",
+                        "sha1": "3a54fd155eac5f62691f573465836c7eff976b52"
+                    },
+                    "required_dependencies": [
+                        "twkfQtEc"
+                    ],
+                    "size": 782329,
+                    "date_published": "2026-03-20T04:10:57.404099Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "DwhS4iH4sPBkOgnX",
             "type": "MOD",
             "side": "CLIENT",
@@ -2670,6 +2715,43 @@
                     "required_dependencies": [],
                     "size": 587995,
                     "date_published": "2026-05-25T03:11:54.221846Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2Mo6A7R0a5mNDd7H",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "moonlight"
+            },
+            "name": {
+                "modrinth": "Moonlight Lib"
+            },
+            "id": {
+                "modrinth": "twkfQtEc"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "moonlight-neoforge-1.21.1-3.0.22.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/JtfVx8PK/moonlight-neoforge-1.21.1-3.0.22.jar",
+                    "id": "JtfVx8PK",
+                    "parent_id": "twkfQtEc",
+                    "hashes": {
+                        "sha512": "36671946bd0f4ec14996603ef03249c48ca205e9c5e666168264056e5a4f3ddd5ccf605325bfec4a94540def906fc58892d87954a501f4fd0914f3de3520d972",
+                        "sha1": "98f1a1ca3e51d73cae5187a21dec4d0e153c4f01"
+                    },
+                    "required_dependencies": [],
+                    "size": 1609513,
+                    "date_published": "2026-06-29T23:30:04.514306Z"
                 }
             ]
         },
