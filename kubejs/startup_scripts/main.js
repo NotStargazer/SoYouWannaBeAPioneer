@@ -4,3 +4,7 @@ global.pack.name = "pioneer";
 StartupEvents.registry("item", (event) => {
   registerModPackItems(event);
 });
+
+StartupEvents.registry("block", (event) => {
+  registerModPackBlocks(event);
+});
